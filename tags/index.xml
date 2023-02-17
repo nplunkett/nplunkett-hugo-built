@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nick Plunkett</title>
+    <link>http://nickplunkett.com/tags/</link>
+    <description>Recent content in Tags on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Feb 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mikrotik</title>
+      <link>http://nickplunkett.com/tags/mikrotik/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/mikrotik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-engineering</title>
+      <link>http://nickplunkett.com/tags/network-engineering/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poe</title>
+      <link>http://nickplunkett.com/tags/poe/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/poe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>routing</title>
+      <link>http://nickplunkett.com/tags/routing/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/routing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>switching</title>
+      <link>http://nickplunkett.com/tags/switching/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/switching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineering</title>
+      <link>http://nickplunkett.com/tags/engineering/</link>
+      <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://nickplunkett.com/tags/windows/</link>
+      <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dwdm</title>
+      <link>http://nickplunkett.com/tags/dwdm/</link>
+      <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/dwdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network design</title>
+      <link>http://nickplunkett.com/tags/network-design/</link>
+      <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optical networking</title>
+      <link>http://nickplunkett.com/tags/optical-networking/</link>
+      <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/optical-networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regional transport</title>
+      <link>http://nickplunkett.com/tags/regional-transport/</link>
+      <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/regional-transport/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

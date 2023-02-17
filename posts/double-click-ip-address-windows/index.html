@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Highlight IP addresses with a double click in Windows Terminal and Firefox on Windows 10 · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://nickplunkett.com/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>Highlight IP addresses with a double click in Windows Terminal and Firefox on Windows 10</h1>
+            </div>
+            <div class="date"><h5>Jun 20, 2022</h5></div>
+        </div>
+        <article class="content">
+            <p>I&rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.</p>
+<p>However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.</p>
+<p>In the Windows terminal settings, you can manually set your delimiters - this is where the magic happens.</p>
+<p><img src="windows-terminal-settings.png" alt="Windows Terminal Settings"></p>
+<p>Click on the down arrow at the top of the tab bar, then click on settings. Click &ldquo;Interaction&rdquo; on the left hand menu and there you will see an option for delimiters. Delete the period from the list, next to - and , and click save on the bottom right.</p>
+<p>Now when you double click and IP it highlights the entire thing!</p>
+<p><img src="firefox-about-config-settings.png" alt="Firefox about:config settings"></p>
+<p>This is also possible to accomplish on Firefox as well (thanks to <a href="https://major.io/2011/08/16/highlight-ip-addresses-with-a-double-click-in-firefox/" target="_blank">Major Hayden for finding and publishing this originally</a>). Just go to about:config and change the &ldquo;layout.word_select.stop_at_punctuation&rdquo; setting to &ldquo;false&rdquo;.</p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/windows/">windows</a><a href="/tags/engineering/">engineering</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett-83184a36/"
+        target="_blank" 
+       
+      >LinkedIn</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

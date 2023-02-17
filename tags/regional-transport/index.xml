@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regional transport on Nick Plunkett</title>
+    <link>http://nickplunkett.com/tags/regional-transport/</link>
+    <description>Recent content in regional transport on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Oct 2018 13:38:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/regional-transport/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presentation at NANOG 74: Lean Disaggregated Regional Optical Transport</title>
+      <link>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</link>
+      <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</guid>
+      <description>In October of 2018, I gave a brief Lightning Talk presentation at NANOG 74. It covered how I and my colleagues at CENIC identified and deployed a crafty low cost metro DWDM solution across CENIC&amp;rsquo;s network backbone. The video recording of this talk is available in the Youtube URL above.
+This was my first ever professional presentation. I was nervous and had a lot to cover during my 10 minute allocation but I had fun and learned a lot about what it takes to prepare and deliver a technical presentation to an audience of my professional peers. I also feel like I gained a lot of confidence toward presenting to larger groups and found that I actually might enjoy making presentations like this.</description>
+    </item>
+    
+  </channel>
+</rss>

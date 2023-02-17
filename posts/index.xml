@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nick Plunkett</title>
+    <link>http://nickplunkett.com/posts/</link>
+    <description>Recent content in Posts on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Feb 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A brief note on Microtik HeX router PoE support</title>
+      <link>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</guid>
+      <description>I recently have been working on a home network buildout in my new home. One of the features I was excited to implement was PoE - power over ethernet. My main use case for PoE in my home network was going to be to power small desktop switches and routers near the wall mounted ethernet ports, in order to eliminate unnecessary wall wart style AC to DC power adapters.
+I purchased a NETGEAR 16-Port Gigabit Ethernet Unmanaged PoE Switch (GS116PP), one of the highest power budget consumer level fanless switches I was able to find on the current market. It has 16 1Gb ports with a total PoE budget of 183W - more than enough for my needs for now and into the future when it will eventually need to be replaced with a 2.</description>
+    </item>
+    
+    <item>
+      <title>Highlight IP addresses with a double click in Windows Terminal and Firefox on Windows 10</title>
+      <link>http://nickplunkett.com/posts/double-click-ip-address-windows/</link>
+      <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/double-click-ip-address-windows/</guid>
+      <description>I&amp;rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&amp;rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.
+However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.</description>
+    </item>
+    
+    <item>
+      <title>Presentation at NANOG 74: Lean Disaggregated Regional Optical Transport</title>
+      <link>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</link>
+      <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</guid>
+      <description>In October of 2018, I gave a brief Lightning Talk presentation at NANOG 74. It covered how I and my colleagues at CENIC identified and deployed a crafty low cost metro DWDM solution across CENIC&amp;rsquo;s network backbone. The video recording of this talk is available in the Youtube URL above.
+This was my first ever professional presentation. I was nervous and had a lot to cover during my 10 minute allocation but I had fun and learned a lot about what it takes to prepare and deliver a technical presentation to an audience of my professional peers. I also feel like I gained a lot of confidence toward presenting to larger groups and found that I actually might enjoy making presentations like this.</description>
+    </item>
+    
+  </channel>
+</rss>

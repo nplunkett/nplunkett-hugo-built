@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network-engineering on Nick Plunkett</title>
+    <link>http://nickplunkett.com/tags/network-engineering/</link>
+    <description>Recent content in network-engineering on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Feb 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/network-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A brief note on Microtik HeX router PoE support</title>
+      <link>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</guid>
+      <description>I recently have been working on a home network buildout in my new home. One of the features I was excited to implement was PoE - power over ethernet. My main use case for PoE in my home network was going to be to power small desktop switches and routers near the wall mounted ethernet ports, in order to eliminate unnecessary wall wart style AC to DC power adapters.
+I purchased a NETGEAR 16-Port Gigabit Ethernet Unmanaged PoE Switch (GS116PP), one of the highest power budget consumer level fanless switches I was able to find on the current market. It has 16 1Gb ports with a total PoE budget of 183W - more than enough for my needs for now and into the future when it will eventually need to be replaced with a 2.</description>
+    </item>
+    
+  </channel>
+</rss>
