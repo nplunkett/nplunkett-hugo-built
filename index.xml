@@ -50,5 +50,16 @@ Nick is currently the head of peering and network engineering responsbile for AS
 Most recently, he has worked as the main US peering coordinator, anycast network stabilizer, and connectivity negotiator at Subspace - a dedicated internet network for real-time applications.</description>
     </item>
     
+    <item>
+      <title>Privacy Polciy</title>
+      <link>http://nickplunkett.com/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://nickplunkett.com/privacy/</guid>
+      <description>I do not personally collect any information on any visitor to my website. I do not run analytics or install any tracking cookies onto your device. However, I cannot control what anyone between you and my website does with your traffic.
+This site is hosted on the Digital Ocean App Platform and is cached/proxied by Cloudflare. I do not control whether or not they perform any tracking or handle any user data (such as your IP address).
+Due to privacy concerns, I try to limit hyperlinks to external websites. However, when I do link to them, they are in control of your user data, not me.</description>
+    </item>
+    
   </channel>
 </rss>
