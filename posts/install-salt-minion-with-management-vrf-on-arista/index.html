@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How To: Install Salt Minion on an Arista Switch that uses a Management VRF · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://nickplunkett.com/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>How To: Install Salt Minion on an Arista Switch that uses a Management VRF</h1>
+            </div>
+            <div class="date"><h5>Feb 24, 2023</h5></div>
+        </div>
+        <article class="content">
+            <p>Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&rsquo;ve run into is that we use a dedicated management VRF on all of our devices.</p>
+<p>This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.</p>
+<p>Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.</p>
+<p>I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.</p>
+<p>If you find yourself in this same situation, you’ll want to do the following, assuming you were able to get Salt Minion installed on the switch already.</p>
+<ol>
+<li>Start a root bash shell on the switch</li>
+<li>Identify your VRFs on the switch using the command “ip netns list”
+For us, this produced the following output:</li>
+</ol>
+<pre tabindex="0"><code>bash-4.2# ip netns list
+ns-MGMT
+default
+</code></pre><ol start="3">
+<li>Edit the default systemd salt-minion service file to tell it to start within the ns-MGMT VRF. For us, this was located at /usr/lib/systemd/system/salt-minion.service</li>
+</ol>
+<p>Change the following line:</p>
+<pre tabindex="0"><code>ExecStart=opt/saltstack/salt/run/run minion
+</code></pre><p>To:</p>
+<pre tabindex="0"><code>ExecStart=/usr/sbin/ip netns exec ns-MGMT /opt/saltstack/salt/run/run minion
+</code></pre><ol start="4">
+<li>Restart the salt minion service, and you should now see the keys “unaccepted” but seen on your Salt master</li>
+</ol>
+<p>That’s it! You&rsquo;re now ready to use Salt on your Arista device. Continue to follow the Salt install guide for Arista devices and configure your Salt master.</p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/arista/">arista</a><a href="/tags/network-engineering/">network-engineering</a><a href="/tags/network-management/">network-management</a><a href="/tags/salt/">salt</a><a href="/tags/automation/">automation</a><a href="/tags/napalm/">napalm</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett-83184a36/"
+        target="_blank" 
+       
+      >LinkedIn</a><a href="/privacy"
+        target="_blank" 
+       
+      >Privacy Policy</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

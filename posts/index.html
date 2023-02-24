@@ -25,6 +25,33 @@
 <article class="post-list">
     <div class="title-group">
         <div class="title">
+            <h1><a href="/posts/install-salt-minion-with-management-vrf-on-arista/">How To: Install Salt Minion on an Arista Switch that uses a Management VRF</a></h1>
+        </div>
+        
+        <div class="date"><h5>Feb 24, 2023</h5></div>
+        
+    </div class="title-group">
+
+    <div class="content">
+        Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&rsquo;ve run into is that we use a dedicated management VRF on all of our devices.
+This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.
+Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.
+I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.
+        
+    </div>
+    
+        
+            <div class="read-more">
+                <a href="/posts/install-salt-minion-with-management-vrf-on-arista/">Read more ›</a>
+            </div>
+        
+    
+
+</article>
+
+<article class="post-list">
+    <div class="title-group">
+        <div class="title">
             <h1><a href="/posts/mikrotik-passive-vs-active-poe-note/">A brief note on Mikrotik HeX router PoE support</a></h1>
         </div>
         
@@ -72,34 +99,9 @@ However, I recently learned about delimiters within the various OSes. From what 
 
 </article>
 
-<article class="post-list">
-    <div class="title-group">
-        <div class="title">
-            <h1><a href="/posts/low-cost-regional-dwdm-nanog-74/">Presentation at NANOG 74: Lean Disaggregated Regional Optical Transport</a></h1>
-        </div>
-        
-        <div class="date"><h5>Oct 23, 2018</h5></div>
-        
-    </div class="title-group">
-
-    <div class="content">
-        In October of 2018, I gave a brief Lightning Talk presentation at NANOG 74. It covered how I and my colleagues at CENIC identified and deployed a crafty low cost metro DWDM solution across CENIC&rsquo;s network backbone. The video recording of this talk is available in the Youtube URL above.
-This was my first ever professional presentation. I was nervous and had a lot to cover during my 10 minute allocation but I had fun and learned a lot about what it takes to prepare and deliver a technical presentation to an audience of my professional peers. I also feel like I gained a lot of confidence toward presenting to larger groups and found that I actually might enjoy making presentations like this.
-        
-    </div>
-    
-        
-            <div class="read-more">
-                <a href="/posts/low-cost-regional-dwdm-nanog-74/">Read more ›</a>
-            </div>
-        
-    
-
-</article>
-
     <div class="paginator">
         
-            <a class="older disabled">« Older posts</a>
+            <a href="/posts/page/2/" class="older">« Older posts</a>
         
 
         

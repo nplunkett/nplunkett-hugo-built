@@ -6,22 +6,67 @@
     <description>Recent content in Tags on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Feb 2023 14:30:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>mikrotik</title>
-      <link>http://nickplunkett.com/tags/mikrotik/</link>
-      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      <title>arista</title>
+      <link>http://nickplunkett.com/tags/arista/</link>
+      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
       
-      <guid>http://nickplunkett.com/tags/mikrotik/</guid>
+      <guid>http://nickplunkett.com/tags/arista/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>http://nickplunkett.com/tags/automation/</link>
+      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>napalm</title>
+      <link>http://nickplunkett.com/tags/napalm/</link>
+      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/napalm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network-engineering</title>
       <link>http://nickplunkett.com/tags/network-engineering/</link>
-      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
       
       <guid>http://nickplunkett.com/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-management</title>
+      <link>http://nickplunkett.com/tags/network-management/</link>
+      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>salt</title>
+      <link>http://nickplunkett.com/tags/salt/</link>
+      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/salt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mikrotik</title>
+      <link>http://nickplunkett.com/tags/mikrotik/</link>
+      <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/mikrotik/</guid>
       <description></description>
     </item>
     
