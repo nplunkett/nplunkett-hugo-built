@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How To: Activate Arista EOS eAPI over HTTPS with a Self Signed Certificate for NAPALM &amp; Peering Manager · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://nickplunkett.com/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>How To: Activate Arista EOS eAPI over HTTPS with a Self Signed Certificate for NAPALM &amp; Peering Manager</h1>
+            </div>
+            <div class="date"><h5>Mar 30, 2023</h5></div>
+        </div>
+        <article class="content">
+            <p>I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp; management. We run Arista switches running as routers across our entire footprint.</p>
+<p>Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.</p>
+<p>I hadn&rsquo;t dealt with this beofre and this wasn&rsquo;t straightforward. I wasn&rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.</p>
+<ol>
+<li>Generate a self signed key:</li>
+</ol>
+<pre tabindex="0"><code>router# security pki key generate rsa 2048 self-signed.key
+</code></pre><ol start="2">
+<li>Generate a self signed certificate using that self signed key:</li>
+</ol>
+<pre tabindex="0"><code>router# security pki certificate generate self-signed self-signed.crt key self-signed.key validity 3000
+</code></pre><ol start="3">
+<li>Configure an SSL profile to use this self signed certificate and self signed key:</li>
+</ol>
+<pre tabindex="0"><code>router# configure
+router(config)# management security
+router(config)# ssl profile self-signed-certs
+router(config)# certificate self-signed.crt key self-signed.key 
+</code></pre><ol start="4">
+<li>Enable the API using HTTP commands:</li>
+</ol>
+<pre tabindex="0"><code>router# configure
+router(config)# management api http-commands 
+router(config)# protocol https ssl profile self-signed-certs
+router(config)# no shutdown
+router(config)# vrf MGMT
+router(config)# no shutdown
+router(config)# end
+</code></pre><ol start="5">
+<li>Ensure the eAPI is available over HTTP/HTTPS:</li>
+</ol>
+<pre tabindex="0"><code>router# show management api http-commands
+Enabled:            Yes
+HTTPS server:       running, set to use port 443
+HTTP server:        running, set to use port 80
+Local HTTP server:  shutdown, no authentication, set to use port 8080
+Unix Socket server: shutdown, no authentication
+VRFs:               MGMT
+Hits:               5
+Last hit:           4102 seconds ago
+Bytes in:           1108
+Bytes out:          20238
+Requests:           5
+Commands:           12
+Duration:           1.060 seconds
+SSL Profile:        self-signed-cert, valid
+FIPS Mode:          No
+QoS DSCP:           0
+Log Level:          none
+CSP Frame Ancestor: None
+TLS Protocols:      1.0 1.1 1.2
+   User                 Requests       Bytes in       Bytes out    Last hit
+-------------------- -------------- -------------- --------------- ----------------
+   peeringmanager       5              1108           20238        4102 seconds ago
+
+URLs
+-----------------------------------
+Management1 : https://{IP-Address}:443
+Management1 : http://{IP-Address}:80
+</code></pre><p>You should now be able to ping the router in Peering Manager and you should be able to poll BGP sessions and deploy configuration via Peering Manager.</p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/arista/">arista</a><a href="/tags/network-engineering/">network-engineering</a><a href="/tags/eos/">eos</a><a href="/tags/automation/">automation</a><a href="/tags/peering-manager/">peering-manager</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett-83184a36/"
+        target="_blank" 
+       
+      >LinkedIn</a><a href="/privacy"
+        target="_blank" 
+       
+      >Privacy Policy</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Feb 2023 14:30:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>arista</title>
       <link>http://nickplunkett.com/tags/arista/</link>
-      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
+      <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
       
       <guid>http://nickplunkett.com/tags/arista/</guid>
       <description></description>
@@ -19,9 +19,36 @@
     <item>
       <title>automation</title>
       <link>http://nickplunkett.com/tags/automation/</link>
-      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
+      <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
       
       <guid>http://nickplunkett.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eos</title>
+      <link>http://nickplunkett.com/tags/eos/</link>
+      <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/eos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-engineering</title>
+      <link>http://nickplunkett.com/tags/network-engineering/</link>
+      <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peering-manager</title>
+      <link>http://nickplunkett.com/tags/peering-manager/</link>
+      <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/peering-manager/</guid>
       <description></description>
     </item>
     
@@ -31,15 +58,6 @@
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
       
       <guid>http://nickplunkett.com/tags/napalm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network-engineering</title>
-      <link>http://nickplunkett.com/tags/network-engineering/</link>
-      <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      
-      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
       <description></description>
     </item>
     

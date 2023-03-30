@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://nickplunkett.com/tags/arista/</loc>
-    <lastmod>2023-02-24T14:30:07-07:00</lastmod>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/tags/automation/</loc>
-    <lastmod>2023-02-24T14:30:07-07:00</lastmod>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/eos/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/network-engineering/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/peering-manager/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/posts/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/</loc>
+    <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
@@ -14,22 +35,10 @@
     <loc>http://nickplunkett.com/tags/napalm/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/network-engineering/</loc>
-    <lastmod>2023-02-24T14:30:07-07:00</lastmod>
-  </url><url>
     <loc>http://nickplunkett.com/tags/network-management/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/</loc>
-    <lastmod>2023-02-24T14:30:07-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/posts/</loc>
-    <lastmod>2023-02-24T14:30:07-07:00</lastmod>
-  </url><url>
     <loc>http://nickplunkett.com/tags/salt/</loc>
-    <lastmod>2023-02-24T14:30:07-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</loc>
