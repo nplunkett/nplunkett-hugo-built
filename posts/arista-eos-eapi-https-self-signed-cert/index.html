@@ -27,7 +27,7 @@
         <article class="content">
             <p>I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp; management. We run Arista switches running as routers across our entire footprint.</p>
 <p>Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.</p>
-<p>I hadn&rsquo;t dealt with this beofre and this wasn&rsquo;t straightforward. I wasn&rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.</p>
+<p>I hadn&rsquo;t dealt with this before and this wasn&rsquo;t straightforward. I wasn&rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.</p>
 <ol>
 <li>Generate a self signed key:</li>
 </ol>
