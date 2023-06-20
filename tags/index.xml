@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Mar 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cabling</title>
+      <link>http://nickplunkett.com/tags/cabling/</link>
+      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/cabling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data center</title>
+      <link>http://nickplunkett.com/tags/data-center/</link>
+      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/data-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fiber</title>
+      <link>http://nickplunkett.com/tags/fiber/</link>
+      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/fiber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-engineering</title>
+      <link>http://nickplunkett.com/tags/network-engineering/</link>
+      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optics</title>
+      <link>http://nickplunkett.com/tags/optics/</link>
+      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/optics/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>arista</title>
       <link>http://nickplunkett.com/tags/arista/</link>
@@ -31,15 +76,6 @@
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
       
       <guid>http://nickplunkett.com/tags/eos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network-engineering</title>
-      <link>http://nickplunkett.com/tags/network-engineering/</link>
-      <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      
-      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
       <description></description>
     </item>
     

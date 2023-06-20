@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>optics on Nick Plunkett</title>
+    <link>http://nickplunkett.com/tags/optics/</link>
+    <description>Recent content in optics on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Jun 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/optics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MPO Cables - What are they and how do we use them?</title>
+      <link>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</link>
+      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</guid>
+      <description>I was recently chatting with a coworker talking through how we use MPO cables and various optics. It made me realize that I have a lot of “in my head” knowledge about fiber cables and optics from working in the networking space over the past 5 years or so, but I haven’t found a good reference point online to point people to and it would probably be better for that information to live written down somewhere rather than it just being in my head. So here it is - everything that is floating around in my head about MPO cables. I’ve done my best to double check what I’m writing here but it should be mostly accurate.
+What is MPO? MPO (Multi-Fiber Push On) in common terms refers to both the connector and the cable itself.</description>
+    </item>
+    
+  </channel>
+</rss>

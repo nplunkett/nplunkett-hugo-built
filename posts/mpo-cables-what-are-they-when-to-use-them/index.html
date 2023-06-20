@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MPO Cables - What are they and how do we use them? · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://nickplunkett.com/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>MPO Cables - What are they and how do we use them?</h1>
+            </div>
+            <div class="date"><h5>Jun 20, 2023</h5></div>
+        </div>
+        <article class="content">
+            <p>I was recently chatting with a coworker talking through how we use MPO cables and various optics. It made me realize that I have a lot of “in my head” knowledge about fiber cables and optics from working in the networking space over the past 5 years or so, but I haven’t found a good reference point online to point people to and it would probably be better for that information to live written down somewhere rather than it just being in my head. So here it is - everything that is floating around in my head about MPO cables. I’ve done my best to double check what I’m writing here but it should be mostly accurate.</p>
+<h2 id="what-is-mpo">What is MPO?</h2>
+<p>MPO (Multi-Fiber Push On) in common terms refers to both the connector and the cable itself. It is a cable that contains (currently, 2023) either 8, 12, or 24 fibers terminated onto a single connector, male or female, on both sides of the cable. The cables are available in Single Mode (OS3) and Multimode (OM3, OM4, OM5) formats.</p>
+<h2 id="where-is-mpo-used">Where is MPO used?</h2>
+<p>For typical use cases, MPO cables are used in the following applications:</p>
+<h3 id="multimode-sr-optics---40g-and-100g">Multimode (SR) Optics - 40G and 100G</h3>
+<center><a href="40G-SR.jpg"><img src="40G-SR.jpg" alt="A typical 40G-SR optic" width="40%" /></a></center>
+<p>This is the application of MPO cables that most people are familiar with because 40G interfaces are common and have been around for quite some time. They’re especially popular for servers and within data centers for high speed (higher than 10Gb/s) interconnects. These optics, both 40G SR and 100G SR, use MPO-12 cables. You can identify the type of MPO cable needed by looking into the front of the optic.</p>
+<center><a href="40G-SR-Front.jpg"><img src="40G-SR-Front.jpg" alt="The close-up front of a typical 40G-SR optic, showing pins and fiber contacts" width="40%" /></a></center>
+<p>You can see the 12 fiber contacts, plus male pins, inside the optic.</p>
+<p>On 40G-SR optics running in 40Gbps mode (not 4x10G breakout mode), 4 lanes of 10Gbps ethernet signals are transmitted on 4 fibers in each direction, plus 2 lanes of control (timing data, etc.) in each direction - requiring 12 total fibers between the optics. The reason so many fibers are needed is because each 10Gbps signal is transmitted as an 850nm wave, and you can not have the same wave transmitted multiple times on the same fiber (today) without the signals interfering with each other.</p>
+<p>100G-SR optics work the same way, except instead of four 10Gbps lanes, they use 4 25Gbps lanes transmitting across 4 fibers in each direction, with 2 control signals included in each direction.</p>
+<p>Legally I wouldn’t advise you to do this, but you can verify this by connecting an MPO cable to an active, transmitting pluggable optic and looking at the other end of the cable. You’ll see the 4 10Gbps lanes transmitting.</p>
+<h3 id="single-mode-and-multimode-breakout-opticsharnesses">Single Mode and Multimode Breakout Optics/Harnesses</h3>
+<center><a href="Breakout-Cable-SM.jpg"><img src="Breakout-Cable-SM.jpg" alt="A fiber breakout harness, MPO to 8-LC, single-mode" width="40%" /></a></center>
+<p>MPO cables are also commonly used on breakout optics and breakout harnesses. The most common use case is 40G LR/SR optics being broken down into 4 separate 10G interfaces. One side of the connection is an MPO-12 connector and the other side is 4 pairs of duplex LC fiber connectors.</p>
+<p>For a 40G-LR breakout connection, you actually have to use a specific PID to break them out. Usually, this is a “PLR4” optic, since a standard “40G-LR” optic uses LC connectors and a “PLR4” optic uses MPO connectors. These PLR4 optics are used commonly in internet peering to connect 10G PNIs between entities as organizations move away from 10G SFP+ optics toward 100G QSFP28 optics.</p>
+<center><a href="Breakout-Cable-MM.jpg"><img src="Breakout-Cable-MM.jpg" alt="A fiber breakout harness, MPO to 8-LC, multi-mode" width="40%" /></a></center>
+<p>For 40G-SR breakout (much less common) you can use a standard 40G-SR optic because that optic already uses an MPO connector. Typically you just apply a configuration to the box that the optic is plugged into to change it from 40G “full” mode to 4x10G breakout mode.</p>
+<p>Breaking out 10G interfaces from a 40G interface allows us to use 40G QSFP interfaces rather than individual 10G SFP+ interfaces. We do this because it allows us to run denser higher speed equipment - the denser we can run equipment the more we can save on costs.</p>
+<p>One of the main drawbacks of breakout optics is that your failure domain is expanded. 4 links are now sharing the fate of a single pluggable optic rather than each link having its own pluggable optic. If the pluggable or cable fails, 4 links are taken down instead of 1 single link. If you terminate the breakout optic onto a QSFP28 port you are also only using 40% of the available bandwidth of the port, another drawback.</p>
+<p>Typically, you can break out either with a cable directly or through a panel. If you’re connecting to a third party, or a separate rack a panel is usually preferable to keep things cleaner and to have a specific point of demarcation that isn’t an optic or a cable. Some panels simply terminate LC connectors,</p>
+<h3 id="dci---data-center-interconnect--fan-out">DCI - Data Center Interconnect &amp; Fan Out</h3>
+<center><a href="MTP-to-LC-Breakout-Panel-Front.jpg"><img src="MTP-to-LC-Breakout-Panel-Front.jpg" alt="A breakout casette/panel MPO-24 to 24-LC connectors" width="40%" /></a> <a href="MTP-to-LC-Breakout-Panel-Back.jpg"><img src="MTP-to-LC-Breakout-Panel-Back.jpg" alt="The backside of the same MPO breakout casette/panel" width="40%" /></a></center>
+<p>In the same way that MPO cables can be used to break out 40G to 10G, you can also break out each pair (12 total) of the 24 fibers bundled into the cable into LC connectors and run whatever signal you want on the cable itself. This is super useful to be able to run multiple cross connects over a single physical cable between racks or spaces in a data center. It is much more convenient to run a single MPO cable than 24 individual pairs of fiber between locations.</p>
+<p>To connect these together, you run a single MPO-24 female to MPO-24 female cable between your racks/rooms/data centers, and connect them to the back of a breakout casette/panel on each end. You then get 24 fibers (12 pairs) between the two locations, and all you had to do was run one cable.</p>
+<center><a href="Breakout-Panel-Internal.png"><img src="Breakout-Panel-Internal.png" alt="An inside view of the MPO breakout casette/panel" width="60%" /></a></center>
+<p>Fan out has been used for decades in Optical Networking, going back to the early 2000s you can see them present on multiplexing and de-multiplexing cards on Cisco 15454 optical gear.</p>
+<p>These panels allow dense inter-rack connectivity at an affordable price range.</p>
+<p>I&rsquo;m sure there&rsquo;s many other applications of MPO cables, but these are the ones that immediately came to mind for me. I&rsquo;ll probably continue to update this post in the future with more details.</p>
+<p>All images in this post came from FS.com. They offer affordable and easily accessible MPO cables and are a decent source for glass network gear.</p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/network-engineering/">network-engineering</a><a href="/tags/cabling/">cabling</a><a href="/tags/optics/">optics</a><a href="/tags/fiber/">fiber</a><a href="/tags/data-center/">data center</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett-83184a36/"
+        target="_blank" 
+       
+      >LinkedIn</a><a href="/privacy"
+        target="_blank" 
+       
+      >Privacy Policy</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>
