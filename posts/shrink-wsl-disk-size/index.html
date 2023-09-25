@@ -27,7 +27,7 @@
         <article class="content">
             <p>I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.</p>
 <p>It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.</p>
-<p>#How to shrink the VHD file</p>
+<h2 id="how-to-shrink-the-vhd-file">How to shrink the VHD file</h2>
 <p>Locate the VHD file in your user directory of Windows. For me, this was: &ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&rdquo;</p>
 <p>In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:</p>
 <p>Identify the correct WSL instance:</p>
@@ -35,7 +35,7 @@
   NAME      STATE           VERSION
 * Ubuntu    Running         2
 </code></pre><p>Make sure it is shutdown before performing disk operations:</p>
-<pre tabindex="0"><code>wsl.exe --terminate
+<pre tabindex="0"><code>wsl.exe --terminate Ubuntu
 </code></pre><p>Open DISKPART</p>
 <pre tabindex="0"><code>diskpart
 </code></pre><p>Select the vdisk file</p>
