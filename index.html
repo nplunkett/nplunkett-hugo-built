@@ -41,6 +41,34 @@
 <article class="post-list">
     <div class="title-group">
         <div class="title">
+            <h1><a href="/posts/shrink-wsl-disk-size/">How To: Shrink WSL Disk Size on Windows 10</a></h1>
+        </div>
+        
+        <div class="date"><h5>Sep 25, 2023</h5></div>
+        
+    </div class="title-group">
+
+    <div class="content">
+        I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.
+It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.
+#How to shrink the VHD file
+Locate the VHD file in your user directory of Windows. For me, this was: &ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&rdquo;
+In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:
+        
+    </div>
+    
+        
+            <div class="read-more">
+                <a href="/posts/shrink-wsl-disk-size/">Read more ›</a>
+            </div>
+        
+    
+
+</article>
+
+<article class="post-list">
+    <div class="title-group">
+        <div class="title">
             <h1><a href="/posts/mpo-cables-what-are-they-when-to-use-them/">MPO Cables - What are they and how do we use them?</a></h1>
         </div>
         

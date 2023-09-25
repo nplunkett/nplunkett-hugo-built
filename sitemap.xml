@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://nickplunkett.com/posts/shrink-wsl-disk-size/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/posts/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/ubuntu/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/windows/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/windows-10/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/wsl/</loc>
+    <lastmod>2023-09-25T13:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://nickplunkett.com/tags/cabling/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
@@ -17,16 +41,7 @@
     <loc>http://nickplunkett.com/tags/network-engineering/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/</loc>
-    <lastmod>2023-06-20T13:00:07-07:00</lastmod>
-  </url><url>
     <loc>http://nickplunkett.com/tags/optics/</loc>
-    <lastmod>2023-06-20T13:00:07-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/posts/</loc>
-    <lastmod>2023-06-20T13:00:07-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/tags/arista/</loc>
@@ -75,9 +90,6 @@
     <lastmod>2022-06-20T13:00:07-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/posts/double-click-ip-address-windows/</loc>
-    <lastmod>2022-06-20T13:00:07-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/windows/</loc>
     <lastmod>2022-06-20T13:00:07-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/tags/dwdm/</loc>

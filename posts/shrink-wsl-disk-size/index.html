@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>How To: Shrink WSL Disk Size on Windows 10 · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://nickplunkett.com/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>How To: Shrink WSL Disk Size on Windows 10</h1>
+            </div>
+            <div class="date"><h5>Sep 25, 2023</h5></div>
+        </div>
+        <article class="content">
+            <p>I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.</p>
+<p>It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.</p>
+<p>#How to shrink the VHD file</p>
+<p>Locate the VHD file in your user directory of Windows. For me, this was: &ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&rdquo;</p>
+<p>In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:</p>
+<p>Identify the correct WSL instance:</p>
+<pre tabindex="0"><code>PS C:\Users\Nick Plunkett&gt; wsl.exe --list --verbose
+  NAME      STATE           VERSION
+* Ubuntu    Running         2
+</code></pre><p>Make sure it is shutdown before performing disk operations:</p>
+<pre tabindex="0"><code>wsl.exe --terminate
+</code></pre><p>Open DISKPART</p>
+<pre tabindex="0"><code>diskpart
+</code></pre><p>Select the vdisk file</p>
+<pre tabindex="0"><code>select vdisk file=&quot;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&quot;
+</code></pre><p>Run &ldquo;compact vdisk&rdquo;. This will take some time depending on the difference between the size of the VHD file and the free space in that VHD file.</p>
+<pre tabindex="0"><code>compact vdisk
+</code></pre><p>For me, this saved over 200GB of unused but allocated space. As I added more files to WSL, the VHD file grew in size again.</p>
+<p>Thanks to Stephen Rees-Carter, I found this process on their website originally at <a href="https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/" target="_blank">https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/</a></p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/windows/">windows</a><a href="/tags/ubuntu/">Ubuntu</a><a href="/tags/wsl/">wsl</a><a href="/tags/windows-10/">Windows 10</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett/"
+        target="_blank" 
+       
+      >LinkedIn</a><a href="/privacy"
+        target="_blank" 
+       
+      >Privacy Policy</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>
