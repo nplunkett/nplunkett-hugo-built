@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>network-engineering on Nick Plunkett</title>
+    <title>Network Engineering on Nick Plunkett</title>
     <link>http://nickplunkett.com/tags/network-engineering/</link>
-    <description>Recent content in network-engineering on Nick Plunkett</description>
+    <description>Recent content in Network Engineering on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jun 2023 13:00:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/network-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Nov 2023 13:00:00 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/network-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>400G QSFP-DD Pluggable Client Optics - Overview</title>
+      <link>http://nickplunkett.com/posts/400g-client-optics-overview/</link>
+      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/posts/400g-client-optics-overview/</guid>
+      <description>The next speed step in pluggable optics is here and pricing is reaching tolerable levels. While they still use significantly more power than QSFP optics, the actual unit cost of the pluggables is reaching sub $500/pc levels, which makes them viable in many more use cases.
+I&amp;rsquo;ve been researching these in order to get myself more familiar with what is available out there. These are my notes for what I&amp;rsquo;ve found so far. I&amp;rsquo;ll probably update these a few times as I learn and try more.
+400G FR4 The 400G FR4 is a cost-effective pluggable optic that uses duplex LC SMF connectors and operates at a center wavelength of 1310nm. It has a maximum reach of 2km.
+Features:  Duplex LC SMF connectors 1310nm wavelength 2km maximum reach Cost-effective option - available for around $900 list price  Use Cases:  Short-reach data center interconnects over single mode fiber 1:1 replacement of existing LR4 connections  400G XDR4 The 400G XDR4 is a pluggable optic that uses MPO-12 connectors, single mode fiber, and operates at a center wavelength of 1310nm.</description>
+    </item>
+    
     <item>
       <title>MPO Cables - What are they and how do we use them?</title>
       <link>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</link>

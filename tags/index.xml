@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Sep 2023 13:00:00 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Nov 2023 13:00:00 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>400G</title>
+      <link>http://nickplunkett.com/tags/400g/</link>
+      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/400g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Architecture</title>
+      <link>http://nickplunkett.com/tags/network-architecture/</link>
+      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Engineering</title>
+      <link>http://nickplunkett.com/tags/network-engineering/</link>
+      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optics</title>
+      <link>http://nickplunkett.com/tags/optics/</link>
+      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/optics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pluggables</title>
+      <link>http://nickplunkett.com/tags/pluggables/</link>
+      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
+      
+      <guid>http://nickplunkett.com/tags/pluggables/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Ubuntu</title>
       <link>http://nickplunkett.com/tags/ubuntu/</link>
@@ -67,24 +112,6 @@
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
       
       <guid>http://nickplunkett.com/tags/fiber/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network-engineering</title>
-      <link>http://nickplunkett.com/tags/network-engineering/</link>
-      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      
-      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>optics</title>
-      <link>http://nickplunkett.com/tags/optics/</link>
-      <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      
-      <guid>http://nickplunkett.com/tags/optics/</guid>
       <description></description>
     </item>
     

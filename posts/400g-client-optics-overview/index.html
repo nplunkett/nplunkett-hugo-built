@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>400G QSFP-DD Pluggable Client Optics - Overview · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://nickplunkett.com/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>400G QSFP-DD Pluggable Client Optics - Overview</h1>
+            </div>
+            <div class="date"><h5>Nov 16, 2023</h5></div>
+        </div>
+        <article class="content">
+            <p>The next speed step in pluggable optics is here and pricing is reaching tolerable levels. While they still use significantly more power than QSFP optics, the actual unit cost of the pluggables is reaching sub $500/pc levels, which makes them viable in many more use cases.</p>
+<p>I&rsquo;ve been researching these in order to get myself more familiar with what is available out there. These are my notes for what I&rsquo;ve found so far. I&rsquo;ll probably update these a few times as I learn and try more.</p>
+<h2 id="400g-fr4">400G FR4</h2>
+<p>The 400G FR4 is a cost-effective pluggable optic that uses duplex LC SMF connectors and operates at a center wavelength of 1310nm. It has a maximum reach of 2km.</p>
+<h3 id="features">Features:</h3>
+<ul>
+<li>Duplex LC SMF connectors</li>
+<li>1310nm wavelength</li>
+<li>2km maximum reach</li>
+<li>Cost-effective option - available for around $900 list price</li>
+</ul>
+<h3 id="use-cases">Use Cases:</h3>
+<ul>
+<li>Short-reach data center interconnects over single mode fiber</li>
+<li>1:1 replacement of existing LR4 connections</li>
+</ul>
+<h2 id="400g-xdr4">400G XDR4</h2>
+<p>The 400G XDR4 is a pluggable optic that uses MPO-12 connectors, single mode fiber, and operates at a center wavelength of 1310nm. It can be broken out into four 100G FR connections and has a maximum reach of 2km.</p>
+<h3 id="features-1">Features:</h3>
+<ul>
+<li>MPO-12 connector</li>
+<li>1310nm center wavelength</li>
+<li>2km maximum reach</li>
+<li>4x100G FR breakout</li>
+</ul>
+<h3 id="use-cases-1">Use Cases:</h3>
+<ul>
+<li>Connecting 400G equipment to 100G equipment without any loss of capacity on the 400G port (not always possible with the 10G -&gt; 100G transition)</li>
+</ul>
+<h2 id="400g-dr4">400G DR4</h2>
+<p>The 400G DR4 is a pluggable optic that uses single-mode MPO-12 connectors and operates at a wavelength of 1310nm. It can be broken out into four 100G DR connections and has a maximum reach of 500m.</p>
+<h3 id="features-2">Features:</h3>
+<ul>
+<li>Single-mode MPO-12 connectors</li>
+<li>1310nm wavelength</li>
+<li>500m maximum reach</li>
+<li>4x100G DR breakout</li>
+</ul>
+<h3 id="use-cases-2">Use Cases:</h3>
+<ul>
+<li>Connecting 400G equipment to 100G equipment without any loss of capacity on the 400G port</li>
+<li>Cheaper option than FR4 if you can tolerate the lower distance</li>
+</ul>
+<h2 id="400g-lr4">400G LR4</h2>
+<p>The 400G LR4 is a pluggable optic that uses duplex LC SMF connectors and operates at a wavelength of 1310nm. It has a maximum reach of 10km.</p>
+<h3 id="features-3">Features:</h3>
+<ul>
+<li>Duplex LC SMF connectors</li>
+<li>1310nm wavelength</li>
+<li>10km maximum reach</li>
+</ul>
+<h3 id="use-cases-3">Use Cases:</h3>
+<ul>
+<li>Long-haul data center interconnects</li>
+<li>Peering interconnects</li>
+</ul>
+<h2 id="400g-lr4-l">400G LR4-L</h2>
+<p>The 400G LR4-L is a pluggable optic that uses duplex LC SMF connectors and operates at a wavelength of 1310nm. It has a maximum reach of 6km.</p>
+<h3 id="features-4">Features:</h3>
+<ul>
+<li>Duplex LC SMF connectors</li>
+<li>1310nm wavelength</li>
+<li>6km maximum reach</li>
+</ul>
+<h3 id="use-cases-4">Use Cases:</h3>
+<ul>
+<li>Same as LR4 but cheaper if you don&rsquo;t need the full 10KM reach.</li>
+</ul>
+<h2 id="400g-lr8">400G LR8</h2>
+<p>The 400G LR8 is a pluggable optic that uses duplex LC SMF connectors and operates at a wavelength of 1310nm. It has a maximum reach of 10km.</p>
+<h3 id="features-5">Features:</h3>
+<ul>
+<li>Duplex LC SMF connectors</li>
+<li>1310nm wavelength</li>
+<li>10km maximum reach</li>
+</ul>
+<h3 id="use-cases-5">Use Cases:</h3>
+<ul>
+<li>Less popular, more expensive, higher power consumption version of version of LR4</li>
+<li>More lasers on the optical side means more cost in production</li>
+</ul>
+<h2 id="400g-sr8">400G SR8</h2>
+<p>The 400G SR8 is a pluggable optic that uses multi-mode MPO-16 connectors and operates at a wavelength of 850nm. It can be broken out into two 200G or eight 50G-SR connections and has a maximum reach of 100m.</p>
+<h3 id="features-6">Features:</h3>
+<ul>
+<li>MPO-16 connectors</li>
+<li>850nm wavelength</li>
+<li>100m maximum reach</li>
+<li>2x200G or 8x50G-SR breakout</li>
+</ul>
+<h3 id="use-cases-6">Use Cases:</h3>
+<ul>
+<li>Short-reach data center interconnects</li>
+<li>Cheap</li>
+<li>Most places are phasing out use of MPO beyond breakout cables</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>400G QSFP-DD pluggable optics offer a powerful and cost-effective solution for high-speed data transmission. With a variety of connector types, wavelengths, and maximum distance options, there is a 400G QSFP-DD pluggable for nearly any need.</p>
+
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/optics/">Optics</a><a href="/tags/network-engineering/">Network Engineering</a><a href="/tags/pluggables/">Pluggables</a><a href="/tags/400g/">400G</a><a href="/tags/network-architecture/">Network Architecture</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett/"
+        target="_blank" 
+       
+      >LinkedIn</a><a href="/privacy"
+        target="_blank" 
+       
+      >Privacy Policy</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>
