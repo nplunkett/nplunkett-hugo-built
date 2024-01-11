@@ -39,7 +39,7 @@
 </code></pre><p>Open DISKPART</p>
 <pre tabindex="0"><code>diskpart
 </code></pre><p>Select the vdisk file</p>
-<pre tabindex="0"><code>select vdisk file=&quot;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&quot;
+<pre tabindex="0"><code>select vdisk file=&#34;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&#34;
 </code></pre><p>Run &ldquo;compact vdisk&rdquo;. This will take some time depending on the difference between the size of the VHD file and the free space in that VHD file.</p>
 <pre tabindex="0"><code>compact vdisk
 </code></pre><p>For me, this saved over 200GB of unused but allocated space. As I added more files to WSL, the VHD file grew in size again.</p>

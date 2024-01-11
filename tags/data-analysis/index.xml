@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Nick Plunkett</title>
+    <link>http://nickplunkett.com/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2024 13:00:00 -0700</lastBuildDate>
+    <atom:link href="http://nickplunkett.com/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easily create an sFlow collector and dashboard with sFlow-RT</title>
+      <link>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</guid>
+      <description>I&amp;rsquo;ve recently been looking for an easily deployable sFlow collector to receive and index sFlow data from various network hardware. I came across this post on sflow.com and am sharing it here because it was extremely helpful for me. I was able to get an sFlow collector up within 10 minutes using their Git repository and Docker, and once I got my network hardware configured, I was able to see traffic based on source and destination ASN with implied country based traffic as well. This is super powerful software that is all free and open source, I would highly recommend this if you&amp;rsquo;re just getting into sFlow data ingestion and querying.&#xA;https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&#xA;Internet archive link in case the previous link becomes unavailable: http://web.</description>
+    </item>
+  </channel>
+</rss>

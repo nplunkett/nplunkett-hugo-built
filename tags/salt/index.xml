@@ -6,18 +6,14 @@
     <description>Recent content in salt on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Feb 2023 14:30:07 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/salt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Feb 2023 14:30:07 -0700</lastBuildDate>
+    <atom:link href="http://nickplunkett.com/tags/salt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To: Install Salt Minion on an Arista Switch that uses a Management VRF</title>
       <link>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</guid>
-      <description>Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&amp;rsquo;ve run into is that we use a dedicated management VRF on all of our devices.
-This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.
-Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.
-I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.</description>
+      <description>Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&amp;rsquo;ve run into is that we use a dedicated management VRF on all of our devices.&#xA;This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.&#xA;Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.&#xA;I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.</description>
     </item>
-    
   </channel>
 </rss>

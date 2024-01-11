@@ -6,117 +6,84 @@
     <description>Recent content on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Nov 2023 13:00:00 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 13:00:00 -0700</lastBuildDate>
+    <atom:link href="http://nickplunkett.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easily create an sFlow collector and dashboard with sFlow-RT</title>
+      <link>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</guid>
+      <description>I&amp;rsquo;ve recently been looking for an easily deployable sFlow collector to receive and index sFlow data from various network hardware. I came across this post on sflow.com and am sharing it here because it was extremely helpful for me. I was able to get an sFlow collector up within 10 minutes using their Git repository and Docker, and once I got my network hardware configured, I was able to see traffic based on source and destination ASN with implied country based traffic as well. This is super powerful software that is all free and open source, I would highly recommend this if you&amp;rsquo;re just getting into sFlow data ingestion and querying.&#xA;https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&#xA;Internet archive link in case the previous link becomes unavailable: http://web.</description>
+    </item>
     <item>
       <title>400G QSFP-DD Pluggable Client Optics - Overview</title>
       <link>http://nickplunkett.com/posts/400g-client-optics-overview/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/400g-client-optics-overview/</guid>
-      <description>The next speed step in pluggable optics is here and pricing is reaching tolerable levels. While they still use significantly more power than QSFP optics, the actual unit cost of the pluggables is reaching sub $500/pc levels, which makes them viable in many more use cases.
-I&amp;rsquo;ve been researching these in order to get myself more familiar with what is available out there. These are my notes for what I&amp;rsquo;ve found so far. I&amp;rsquo;ll probably update these a few times as I learn and try more.
-400G FR4 The 400G FR4 is a cost-effective pluggable optic that uses duplex LC SMF connectors and operates at a center wavelength of 1310nm. It has a maximum reach of 2km.
-Features:  Duplex LC SMF connectors 1310nm wavelength 2km maximum reach Cost-effective option - available for around $900 list price  Use Cases:  Short-reach data center interconnects over single mode fiber 1:1 replacement of existing LR4 connections  400G XDR4 The 400G XDR4 is a pluggable optic that uses MPO-12 connectors, single mode fiber, and operates at a center wavelength of 1310nm.</description>
+      <description>The next speed step in pluggable optics is here and pricing is reaching tolerable levels. While they still use significantly more power than QSFP optics, the actual unit cost of the pluggables is reaching sub $500/pc levels, which makes them viable in many more use cases.&#xA;I&amp;rsquo;ve been researching these in order to get myself more familiar with what is available out there. These are my notes for what I&amp;rsquo;ve found so far. I&amp;rsquo;ll probably update these a few times as I learn and try more.&#xA;400G FR4 The 400G FR4 is a cost-effective pluggable optic that uses duplex LC SMF connectors and operates at a center wavelength of 1310nm. It has a maximum reach of 2km.&#xA;Features: Duplex LC SMF connectors 1310nm wavelength 2km maximum reach Cost-effective option - available for around $900 list price Use Cases: Short-reach data center interconnects over single mode fiber 1:1 replacement of existing LR4 connections 400G XDR4 The 400G XDR4 is a pluggable optic that uses MPO-12 connectors, single mode fiber, and operates at a center wavelength of 1310nm.</description>
     </item>
-    
     <item>
       <title>How To: Shrink WSL Disk Size on Windows 10</title>
       <link>http://nickplunkett.com/posts/shrink-wsl-disk-size/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/shrink-wsl-disk-size/</guid>
-      <description>I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.
-It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.
-How to shrink the VHD file Locate the VHD file in your user directory of Windows. For me, this was: &amp;ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&amp;rdquo;
-In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:</description>
+      <description>I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.&#xA;It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.&#xA;How to shrink the VHD file Locate the VHD file in your user directory of Windows. For me, this was: &amp;ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&amp;rdquo;&#xA;In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:</description>
     </item>
-    
     <item>
       <title>MPO Cables - What are they and how do we use them?</title>
       <link>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</guid>
-      <description>I was recently chatting with a coworker talking through how we use MPO cables and various optics. It made me realize that I have a lot of “in my head” knowledge about fiber cables and optics from working in the networking space over the past 5 years or so, but I haven’t found a good reference point online to point people to and it would probably be better for that information to live written down somewhere rather than it just being in my head. So here it is - everything that is floating around in my head about MPO cables. I’ve done my best to double check what I’m writing here but it should be mostly accurate.
-What is MPO? MPO (Multi-Fiber Push On) in common terms refers to both the connector and the cable itself.</description>
+      <description>I was recently chatting with a coworker talking through how we use MPO cables and various optics. It made me realize that I have a lot of “in my head” knowledge about fiber cables and optics from working in the networking space over the past 5 years or so, but I haven’t found a good reference point online to point people to and it would probably be better for that information to live written down somewhere rather than it just being in my head. So here it is - everything that is floating around in my head about MPO cables. I’ve done my best to double check what I’m writing here but it should be mostly accurate.&#xA;What is MPO? MPO (Multi-Fiber Push On) in common terms refers to both the connector and the cable itself.</description>
     </item>
-    
     <item>
       <title>How To: Activate Arista EOS eAPI over HTTPS with a Self Signed Certificate for NAPALM &amp; Peering Manager</title>
       <link>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</guid>
-      <description>I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp;amp; management. We run Arista switches running as routers across our entire footprint.
-Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.
-I hadn&amp;rsquo;t dealt with this before and this wasn&amp;rsquo;t straightforward. I wasn&amp;rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.</description>
+      <description>I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp;amp; management. We run Arista switches running as routers across our entire footprint.&#xA;Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.&#xA;I hadn&amp;rsquo;t dealt with this before and this wasn&amp;rsquo;t straightforward. I wasn&amp;rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.</description>
     </item>
-    
     <item>
       <title>How To: Install Salt Minion on an Arista Switch that uses a Management VRF</title>
       <link>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</guid>
-      <description>Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&amp;rsquo;ve run into is that we use a dedicated management VRF on all of our devices.
-This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.
-Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.
-I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.</description>
+      <description>Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&amp;rsquo;ve run into is that we use a dedicated management VRF on all of our devices.&#xA;This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.&#xA;Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.&#xA;I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.</description>
     </item>
-    
     <item>
       <title>A brief note on Mikrotik HeX router PoE support</title>
       <link>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</guid>
-      <description>I recently have been working on a home network buildout in my new home. One of the features I was excited to implement was PoE - power over ethernet. My main use case for PoE in my home network was going to be to power small desktop switches and routers near the wall mounted ethernet ports, in order to eliminate unnecessary wall wart style AC to DC power adapters.
-I purchased a NETGEAR 16-Port Gigabit Ethernet Unmanaged PoE Switch (GS116PP), one of the highest power budget consumer level fanless switches I was able to find on the current market. It has 16 1Gb ports with a total PoE budget of 183W - more than enough for my needs for now and into the future when it will eventually need to be replaced with a 2.</description>
+      <description>I recently have been working on a home network buildout in my new home. One of the features I was excited to implement was PoE - power over ethernet. My main use case for PoE in my home network was going to be to power small desktop switches and routers near the wall mounted ethernet ports, in order to eliminate unnecessary wall wart style AC to DC power adapters.&#xA;I purchased a NETGEAR 16-Port Gigabit Ethernet Unmanaged PoE Switch (GS116PP), one of the highest power budget consumer level fanless switches I was able to find on the current market. It has 16 1Gb ports with a total PoE budget of 183W - more than enough for my needs for now and into the future when it will eventually need to be replaced with a 2.</description>
     </item>
-    
     <item>
       <title>Highlight IP addresses with a double click in Windows Terminal and Firefox on Windows 10</title>
       <link>http://nickplunkett.com/posts/double-click-ip-address-windows/</link>
       <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/double-click-ip-address-windows/</guid>
-      <description>I&amp;rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&amp;rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.
-However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.</description>
+      <description>I&amp;rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&amp;rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.&#xA;However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.</description>
     </item>
-    
     <item>
       <title>Presentation at NANOG 74: Lean Disaggregated Regional Optical Transport</title>
       <link>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</guid>
-      <description>In October of 2018, I gave a brief Lightning Talk presentation at NANOG 74. It covered how I and my colleagues at CENIC identified and deployed a crafty low cost metro DWDM solution across CENIC&amp;rsquo;s network backbone. The video recording of this talk is available in the Youtube URL above.
-This was my first ever professional presentation. I was nervous and had a lot to cover during my 10 minute allocation but I had fun and learned a lot about what it takes to prepare and deliver a technical presentation to an audience of my professional peers. I also feel like I gained a lot of confidence toward presenting to larger groups and found that I actually might enjoy making presentations like this.</description>
+      <description>In October of 2018, I gave a brief Lightning Talk presentation at NANOG 74. It covered how I and my colleagues at CENIC identified and deployed a crafty low cost metro DWDM solution across CENIC&amp;rsquo;s network backbone. The video recording of this talk is available in the Youtube URL above.&#xA;This was my first ever professional presentation. I was nervous and had a lot to cover during my 10 minute allocation but I had fun and learned a lot about what it takes to prepare and deliver a technical presentation to an audience of my professional peers. I also feel like I gained a lot of confidence toward presenting to larger groups and found that I actually might enjoy making presentations like this.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>http://nickplunkett.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://nickplunkett.com/about/</guid>
-      <description>&amp;ldquo;All things are lawful unto me, but all things are not expedient: all things are lawful for me, but I will not be brought under the power of any.&amp;quot;
-1 Cor 6:12
-&amp;ldquo;I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service. And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.&amp;quot;
-Romans 12:1-2
-&amp;ldquo;Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God; who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began, but is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished death, and hath brought life and immortality to light through the gospel&amp;rdquo;</description>
+      <description>&amp;ldquo;All things are lawful unto me, but all things are not expedient: all things are lawful for me, but I will not be brought under the power of any.&amp;quot;&#xA;1 Cor 6:12&#xA;&amp;ldquo;I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service. And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.&amp;quot;&#xA;Romans 12:1-2&#xA;&amp;ldquo;Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God; who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began, but is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished death, and hath brought life and immortality to light through the gospel&amp;rdquo;</description>
     </item>
-    
     <item>
       <title>Privacy Polciy</title>
       <link>http://nickplunkett.com/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://nickplunkett.com/privacy/</guid>
-      <description>I do not personally collect any information on any visitor to my website. I do not run analytics or install any tracking cookies onto your device. However, I cannot control what anyone between you and my website does with your traffic.
-This site is hosted on the Digital Ocean App Platform and is cached/proxied by Cloudflare. I do not control whether or not they perform any tracking or handle any user data (such as your IP address).
-Due to privacy concerns, I try to limit hyperlinks to external websites. However, when I do link to them, they are in control of your user data, not me.</description>
+      <description>I do not personally collect any information on any visitor to my website. I do not run analytics or install any tracking cookies onto your device. However, I cannot control what anyone between you and my website does with your traffic.&#xA;This site is hosted on the Digital Ocean App Platform and is cached/proxied by Cloudflare. I do not control whether or not they perform any tracking or handle any user data (such as your IP address).&#xA;Due to privacy concerns, I try to limit hyperlinks to external websites. However, when I do link to them, they are in control of your user data, not me.</description>
     </item>
-    
   </channel>
 </rss>

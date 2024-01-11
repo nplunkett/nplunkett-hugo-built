@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "rocinante.css",
-	"sourceRoot": "/home/nplunkett/nickplunkett.com-hugo",
+	"sourceRoot": "/Users/nick/Documents/From Old Laptop/nickplunkett.com-hugo",
 	"sources": [
 		"themes/rocinante/assets/css/rocinante.scss",
 		"themes/rocinante/assets/css/includes.scss"

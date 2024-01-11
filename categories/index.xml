@@ -5,6 +5,7 @@
     <link>http://nickplunkett.com/categories/</link>
     <description>Recent content in Categories on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://nickplunkett.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="http://nickplunkett.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

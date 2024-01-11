@@ -6,258 +6,231 @@
     <description>Recent content in Tags on Nick Plunkett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Nov 2023 13:00:00 -0700</lastBuildDate><atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 13:00:00 -0700</lastBuildDate>
+    <atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analysis</title>
+      <link>http://nickplunkett.com/tags/data-analysis/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>grafana</title>
+      <link>http://nickplunkett.com/tags/grafana/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/tags/grafana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>netflow</title>
+      <link>http://nickplunkett.com/tags/netflow/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/tags/netflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Engineering</title>
+      <link>http://nickplunkett.com/tags/network-engineering/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sflow</title>
+      <link>http://nickplunkett.com/tags/sflow/</link>
+      <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/tags/sflow/</guid>
+      <description></description>
+    </item>
     <item>
       <title>400G</title>
       <link>http://nickplunkett.com/tags/400g/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/400g/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Network Architecture</title>
       <link>http://nickplunkett.com/tags/network-architecture/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/network-architecture/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Network Engineering</title>
-      <link>http://nickplunkett.com/tags/network-engineering/</link>
-      <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      
-      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Optics</title>
       <link>http://nickplunkett.com/tags/optics/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/optics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pluggables</title>
       <link>http://nickplunkett.com/tags/pluggables/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/pluggables/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ubuntu</title>
       <link>http://nickplunkett.com/tags/ubuntu/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>windows</title>
       <link>http://nickplunkett.com/tags/windows/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows 10</title>
       <link>http://nickplunkett.com/tags/windows-10/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/windows-10/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>wsl</title>
       <link>http://nickplunkett.com/tags/wsl/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/wsl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>cabling</title>
       <link>http://nickplunkett.com/tags/cabling/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/cabling/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>data center</title>
       <link>http://nickplunkett.com/tags/data-center/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/data-center/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>fiber</title>
       <link>http://nickplunkett.com/tags/fiber/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/fiber/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>arista</title>
       <link>http://nickplunkett.com/tags/arista/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/arista/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>automation</title>
       <link>http://nickplunkett.com/tags/automation/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/automation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>eos</title>
       <link>http://nickplunkett.com/tags/eos/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/eos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>peering-manager</title>
       <link>http://nickplunkett.com/tags/peering-manager/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/peering-manager/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>napalm</title>
       <link>http://nickplunkett.com/tags/napalm/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/napalm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>network-management</title>
       <link>http://nickplunkett.com/tags/network-management/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/network-management/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>salt</title>
       <link>http://nickplunkett.com/tags/salt/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/salt/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>mikrotik</title>
       <link>http://nickplunkett.com/tags/mikrotik/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/mikrotik/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>poe</title>
       <link>http://nickplunkett.com/tags/poe/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/poe/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>routing</title>
       <link>http://nickplunkett.com/tags/routing/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/routing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>switching</title>
       <link>http://nickplunkett.com/tags/switching/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/switching/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>engineering</title>
       <link>http://nickplunkett.com/tags/engineering/</link>
       <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/engineering/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>dwdm</title>
       <link>http://nickplunkett.com/tags/dwdm/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/dwdm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>network design</title>
       <link>http://nickplunkett.com/tags/network-design/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/network-design/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>optical networking</title>
       <link>http://nickplunkett.com/tags/optical-networking/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/optical-networking/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>regional transport</title>
       <link>http://nickplunkett.com/tags/regional-transport/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      
       <guid>http://nickplunkett.com/tags/regional-transport/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
