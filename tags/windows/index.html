@@ -33,10 +33,11 @@
     </div class="title-group">
 
     <div class="content">
-        I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.
-It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.
-How to shrink the VHD file Locate the VHD file in your user directory of Windows. For me, this was: &ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&rdquo;
-In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:
+        <p>I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.</p>
+<p>It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.</p>
+<h2 id="how-to-shrink-the-vhd-file">How to shrink the VHD file</h2>
+<p>Locate the VHD file in your user directory of Windows. For me, this was: &ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&rdquo;</p>
+<p>In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:</p>
         
     </div>
     
@@ -60,8 +61,9 @@ In order to reclaim the disk space that is no longer in use in WSL, open a power
     </div class="title-group">
 
     <div class="content">
-        I&rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.
-However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.
+        <p>I&rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.</p>
+<p>However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.</p>
+<p>In the Windows terminal settings, you can manually set your delimiters - this is where the magic happens.</p>
         
     </div>
     
