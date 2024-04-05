@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on Nick Plunkett</title>
+    <link>http://nickplunkett.com/tags/rant/</link>
+    <description>Recent content in Rant on Nick Plunkett</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 18:00:00 -0700</lastBuildDate>
+    <atom:link href="http://nickplunkett.com/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proton&#39;s Account Downgrade Process Feels Like a Scam</title>
+      <link>http://nickplunkett.com/posts/protons-account-downgrade-process-scam/</link>
+      <pubDate>Thu, 04 Apr 2024 18:00:00 -0700</pubDate>
+      <guid>http://nickplunkett.com/posts/protons-account-downgrade-process-scam/</guid>
+      <description>&lt;p&gt;tl;dr: Don’t sign up for Proton’s paid account if you think you might ever cancel. Their cancellation process is centered around a dark pattern of refusing to let you unsubscribe until you go through their arbitrary weeks-long process, after which you still might not even be able to cancel!&lt;/p&gt;&#xA;&lt;p&gt;—&lt;/p&gt;&#xA;&lt;p&gt;I have been a long time fan of Proton, I signed up for Proton Mail a long time ago near when it was first available to US users. I used it as a secondary email for a long time, with my main email routing through a legacy G Suite free account that I had retained from signing up for that service early on as well.&lt;/p&gt;&#xA;&lt;p&gt;When G Suite announced they were sunsetting free accounts, I naturally gravitated toward Proton and made it my primary email provider - signing up for a paid subscription and everything. Over time I grew annoyed with how they handled filtering and email notifications, and G Suite announced they would still support legacy free accounts for the foreseeable future, so I decided to migrate back. I didn’t cancel the auto renewal of my subscription right away - a rookie mistake. When I got an email later that my subscription had renewed for another year, I figured it was time to cancel. I would eat the cost of this year and be free next year - that was fine, as long as I could cancel.&lt;/p&gt;&#xA;&lt;p&gt;I was met with the most user hostile system that seemed to be built around trapping people into subscriptions for Proton. They do not let you downgrade your account if you are using more storage than the free tier, which&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
