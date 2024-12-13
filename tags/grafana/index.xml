@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grafana on Nick Plunkett</title>
-    <link>http://nickplunkett.com/tags/grafana/</link>
+    <link>http://localhost:1313/tags/grafana/</link>
     <description>Recent content in Grafana on Nick Plunkett</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Jan 2024 13:00:00 -0700</lastBuildDate>
-    <atom:link href="http://nickplunkett.com/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easily create an sFlow collector and dashboard with sFlow-RT</title>
-      <link>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>
+      <link>http://localhost:1313/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>
       <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</guid>
+      <guid>http://localhost:1313/posts/easy-sflow-ingest-and-view-with-sflow-rt/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been looking for an easily deployable sFlow collector to receive and index sFlow data from various network hardware. I came across this post on sflow.com and am sharing it here because it was extremely helpful for me. I was able to get an sFlow collector up within 10 minutes using their Git repository and Docker, and once I got my network hardware configured, I was able to see traffic based on source and destination ASN with implied country based traffic as well. This is super powerful software that is all free and open source, I would highly recommend this if you&amp;rsquo;re just getting into sFlow data ingestion and querying.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&#34; target=&#34;_blank&#34;&gt;https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Internet archive link in case the previous link becomes unavailable: &lt;a href=&#34;http://web.archive.org/web/20231004203143/https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&#34; target=&#34;_blank&#34;&gt;http://web.archive.org/web/20231004203143/https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

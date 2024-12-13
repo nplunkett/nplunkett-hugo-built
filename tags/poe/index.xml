@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poe on Nick Plunkett</title>
-    <link>http://nickplunkett.com/tags/poe/</link>
+    <link>http://localhost:1313/tags/poe/</link>
     <description>Recent content in Poe on Nick Plunkett</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Feb 2023 13:00:07 -0700</lastBuildDate>
-    <atom:link href="http://nickplunkett.com/tags/poe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/poe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A brief note on Mikrotik HeX router PoE support</title>
-      <link>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</link>
+      <link>http://localhost:1313/posts/mikrotik-passive-vs-active-poe-note/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</guid>
+      <guid>http://localhost:1313/posts/mikrotik-passive-vs-active-poe-note/</guid>
       <description>&lt;p&gt;I recently have been working on a home network buildout in my new home. One of the features I was excited to implement was PoE - power over ethernet. My main use case for PoE in my home network was going to be to power small desktop switches and routers near the wall mounted ethernet ports, in order to eliminate unnecessary wall wart style AC to DC power adapters.&lt;/p&gt;&#xA;&lt;p&gt;I purchased a NETGEAR 16-Port Gigabit Ethernet Unmanaged PoE Switch (GS116PP), one of the highest power budget consumer level fanless switches I was able to find on the current market. It has 16 1Gb ports with a total PoE budget of 183W - more than enough for my needs for now and into the future when it will eventually need to be replaced with a 2.5Gb version. It also supports up to PoE+ and can supply up to 30 watts of power on each PoE port - perfect for my intended use case.&lt;/p&gt;&#xA;&lt;p&gt;I had gotten a little ahead of myself though, because the only gear I have to power on the other end of the PoE connection is a Mikrotik HeX router. One of the key features of this router is that it can be powered entirely by PoE on the first port - no wall adapter required.&lt;/p&gt;&#xA;&lt;p&gt;One thing that the documentation of the HeX router leaves vague is that it requires passive PoE - the device itself is not capable of negotiating PoE with any other device. However, the Netgear switch doesn’t supply passive PoE - an old and outdated standard at this point.&lt;/p&gt;&#xA;&lt;p&gt;The HeX router requires adaptation to passive PoE, which only took a cheap $30 adapter from Ubiquiti - once that was in place, the device was able to sense the passive power and came online and I could ditch the wall wart!&lt;/p&gt;</description>
     </item>
   </channel>

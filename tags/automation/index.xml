@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automation on Nick Plunkett</title>
-    <link>http://nickplunkett.com/tags/automation/</link>
+    <link>http://localhost:1313/tags/automation/</link>
     <description>Recent content in Automation on Nick Plunkett</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Mar 2023 13:00:07 -0700</lastBuildDate>
-    <atom:link href="http://nickplunkett.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To: Activate Arista EOS eAPI over HTTPS with a Self Signed Certificate for NAPALM &amp; Peering Manager</title>
-      <link>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</link>
+      <link>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</guid>
+      <guid>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</guid>
       <description>&lt;p&gt;I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp;amp; management. We run Arista switches running as routers across our entire footprint.&lt;/p&gt;&#xA;&lt;p&gt;Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.&lt;/p&gt;&#xA;&lt;p&gt;I hadn&amp;rsquo;t dealt with this before and this wasn&amp;rsquo;t straightforward. I wasn&amp;rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Generate a self signed key:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router# security pki key generate rsa 2048 self-signed.key&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Generate a self signed certificate using that self signed key:&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>How To: Install Salt Minion on an Arista Switch that uses a Management VRF</title>
-      <link>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</link>
+      <link>http://localhost:1313/posts/install-salt-minion-with-management-vrf-on-arista/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</guid>
+      <guid>http://localhost:1313/posts/install-salt-minion-with-management-vrf-on-arista/</guid>
       <description>&lt;p&gt;Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&amp;rsquo;ve run into is that we use a dedicated management VRF on all of our devices.&lt;/p&gt;&#xA;&lt;p&gt;This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.&lt;/p&gt;&#xA;&lt;p&gt;Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.&lt;/p&gt;&#xA;&lt;p&gt;I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.&lt;/p&gt;&#xA;&lt;p&gt;If you find yourself in this same situation, you’ll want to do the following, assuming you were able to get Salt Minion installed on the switch already.&lt;/p&gt;</description>
     </item>
   </channel>

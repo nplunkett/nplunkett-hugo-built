@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nokia SR OS Management Port Configuration with Default Route · Nick Plunkett</title>
+
+
+
+<link rel="stylesheet" href="/css/rocinante.css" />
+
+<body>
+    <header><h2>
+  
+    <a href="http://localhost:1313/">‹ Nick Plunkett</a>
+  
+</h2>
+</header>
+    <main>
+
+    <div class="post">
+        <div class="title-group">
+            <div class="title">
+                <h1>Nokia SR OS Management Port Configuration with Default Route</h1>
+            </div>
+            <div class="date"><h5>Dec 12, 2024</h5></div>
+        </div>
+        <article class="content">
+            <p>I am running through some configuration testing of Nokia equipment and need to store some notes on basic configuration. Will update this with more text later.</p>
+<p>On a 7750 SR-1x-48D running SR-OS 24.10.R1 using model driven CLI issue the following commands to configure a static address on the management ethernet port:</p>
+<pre tabindex="0"><code>bof exclusive
+router &#34;management&#34;
+interface &#34;management&#34;
+cpm active
+ipv4 &lt;Address&gt; prefix-length &lt;#&gt;
+exit
+exit
+exit
+static routes
+route 0.0.0.0/0 next-hop &lt;Gateway&gt;
+</code></pre><p>You can then view the configured IP address with:</p>
+<pre tabindex="0"><code>A:admin@&lt;hostname&gt;# show router interface A/1
+
+  
+
+===============================================================================
+
+Interface Table (Router: Base)
+
+===============================================================================
+
+Interface-Name                   Adm       Opr(v4/v6)  Mode    Port/SapId
+
+   IP-Address                                                  PfxState
+
+-------------------------------------------------------------------------------
+
+A/1                              Up        Down/Down   Network n/a
+
+   &lt;Address&gt;/&lt;Mask&gt;                                           n/a
+
+-------------------------------------------------------------------------------
+
+Interfaces : 1
+
+===============================================================================
+
+  
+
+[/]
+</code></pre><p>If you want to test connectivity,  make sure you do it from the &ldquo;management&rdquo; instance:</p>
+<pre tabindex="0"><code>A:admin@&lt;hostname&gt;# ping 1.1.1.1 router-instance management     
+
+PING 1.1.1.1 56 data bytes
+
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=56 time=3.07ms.
+
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=56 time=3.11ms.
+
+^C
+
+ping aborted by user
+
+  
+
+---- 1.1.1.1 PING Statistics ----
+
+2 packets transmitted, 2 packets received, 0.00% packet loss
+
+round-trip min = 3.07ms, avg = 3.09ms, max = 3.11ms, stddev = 0.000ms
+
+  
+
+[/]
+
+A:admin@&lt;hostname&gt;#
+</code></pre>
+        </article>
+        
+            <div class="tags">
+                <span title="Tags">🏷</span>
+                <div class="horizontal-links links">
+                    <a href="/tags/nokia/">Nokia</a><a href="/tags/sr-os/">SR-OS</a><a href="/tags/network-engineering/">Network-Engineering</a>
+                </div>
+            </div>
+        
+    </article>
+
+
+    </main>
+    <footer>
+  <div class="content-container">
+    <div class="content">
+
+
+  <p class="horizontal-links"><a href="/about"
+       
+       
+      >About</a><a href="mailto:nick@nickplunkett.com"
+       
+       
+      >Email</a><a href="https://www.linkedin.com/in/nick-plunkett/"
+        target="_blank" 
+       
+      >LinkedIn</a><a href="/privacy"
+        target="_blank" 
+       
+      >Privacy Policy</a></p>
+
+</div>
+  </div>
+</footer>
+    
+    <script>
+      const emailId = atob("bmlja0BuaWNrcGx1bmtldHQuY29t");
+    </script>
+      <script src="/js/rocinante.min.js"></script></body>
+</html>

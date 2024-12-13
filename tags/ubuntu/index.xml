@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on Nick Plunkett</title>
-    <link>http://nickplunkett.com/tags/ubuntu/</link>
+    <link>http://localhost:1313/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Nick Plunkett</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Sep 2023 13:00:00 -0700</lastBuildDate>
-    <atom:link href="http://nickplunkett.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To: Shrink WSL Disk Size on Windows 10</title>
-      <link>http://nickplunkett.com/posts/shrink-wsl-disk-size/</link>
+      <link>http://localhost:1313/posts/shrink-wsl-disk-size/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/shrink-wsl-disk-size/</guid>
+      <guid>http://localhost:1313/posts/shrink-wsl-disk-size/</guid>
       <description>&lt;p&gt;I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.&lt;/p&gt;&#xA;&lt;p&gt;It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-shrink-the-vhd-file&#34;&gt;How to shrink the VHD file&lt;/h2&gt;&#xA;&lt;p&gt;Locate the VHD file in your user directory of Windows. For me, this was: &amp;ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:&lt;/p&gt;</description>
     </item>
   </channel>

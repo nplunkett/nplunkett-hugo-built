@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nick Plunkett</title>
-    <link>http://nickplunkett.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Nick Plunkett</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 18:00:00 -0700</lastBuildDate>
-    <atom:link href="http://nickplunkett.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Dec 2024 13:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Proton&#39;s Account Downgrade Process Feels Like a Scam</title>
-      <link>http://nickplunkett.com/posts/protons-account-downgrade-process-scam/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/protons-account-downgrade-process-scam/</guid>
-      <description>&lt;p&gt;tl;dr: Don’t sign up for Proton’s paid account if you think you might ever cancel. Their cancellation process is centered around a dark pattern of refusing to let you unsubscribe until you go through their arbitrary weeks-long process, after which you still might not even be able to cancel!&lt;/p&gt;&#xA;&lt;p&gt;—&lt;/p&gt;&#xA;&lt;p&gt;I have been a long time fan of Proton, I signed up for Proton Mail a long time ago near when it was first available to US users. I used it as a secondary email for a long time, with my main email routing through a legacy G Suite free account that I had retained from signing up for that service early on as well.&lt;/p&gt;&#xA;&lt;p&gt;When G Suite announced they were sunsetting free accounts, I naturally gravitated toward Proton and made it my primary email provider - signing up for a paid subscription and everything. Over time I grew annoyed with how they handled filtering and email notifications, and G Suite announced they would still support legacy free accounts for the foreseeable future, so I decided to migrate back. I didn’t cancel the auto renewal of my subscription right away - a rookie mistake. When I got an email later that my subscription had renewed for another year, I figured it was time to cancel. I would eat the cost of this year and be free next year - that was fine, as long as I could cancel.&lt;/p&gt;&#xA;&lt;p&gt;I was met with the most user hostile system that seemed to be built around trapping people into subscriptions for Proton. They do not let you downgrade your account if you are using more storage than the free tier, which&lt;/p&gt;</description>
+      <title>Nokia SR OS Management Port Configuration with Default Route</title>
+      <link>http://localhost:1313/posts/nokia-sros-model-driven-mgmt-interface-config/</link>
+      <pubDate>Thu, 12 Dec 2024 13:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/nokia-sros-model-driven-mgmt-interface-config/</guid>
+      <description>&lt;p&gt;I am running through some configuration testing of Nokia equipment and need to store some notes on basic configuration. Will update this with more text later.&lt;/p&gt;&#xA;&lt;p&gt;On a 7750 SR-1x-48D running SR-OS 24.10.R1 using model driven CLI issue the following commands to configure a static address on the management ethernet port:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bof exclusive&#xA;router &amp;#34;management&amp;#34;&#xA;interface &amp;#34;management&amp;#34;&#xA;cpm active&#xA;ipv4 &amp;lt;Address&amp;gt; prefix-length &amp;lt;#&amp;gt;&#xA;exit&#xA;exit&#xA;exit&#xA;static routes&#xA;route 0.0.0.0/0 next-hop &amp;lt;Gateway&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can then view the configured IP address with:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;A:admin@&amp;lt;hostname&amp;gt;# show router interface A/1&#xA;&#xA;  &#xA;&#xA;===============================================================================&#xA;&#xA;Interface Table (Router: Base)&#xA;&#xA;===============================================================================&#xA;&#xA;Interface-Name                   Adm       Opr(v4/v6)  Mode    Port/SapId&#xA;&#xA;   IP-Address                                                  PfxState&#xA;&#xA;-------------------------------------------------------------------------------&#xA;&#xA;A/1                              Up        Down/Down   Network n/a&#xA;&#xA;   &amp;lt;Address&amp;gt;/&amp;lt;Mask&amp;gt;                                           n/a&#xA;&#xA;-------------------------------------------------------------------------------&#xA;&#xA;Interfaces : 1&#xA;&#xA;===============================================================================&#xA;&#xA;  &#xA;&#xA;[/]&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Easily create an sFlow collector and dashboard with sFlow-RT</title>
-      <link>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>
+      <link>http://localhost:1313/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>
       <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</guid>
+      <guid>http://localhost:1313/posts/easy-sflow-ingest-and-view-with-sflow-rt/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been looking for an easily deployable sFlow collector to receive and index sFlow data from various network hardware. I came across this post on sflow.com and am sharing it here because it was extremely helpful for me. I was able to get an sFlow collector up within 10 minutes using their Git repository and Docker, and once I got my network hardware configured, I was able to see traffic based on source and destination ASN with implied country based traffic as well. This is super powerful software that is all free and open source, I would highly recommend this if you&amp;rsquo;re just getting into sFlow data ingestion and querying.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&#34; target=&#34;_blank&#34;&gt;https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Internet archive link in case the previous link becomes unavailable: &lt;a href=&#34;http://web.archive.org/web/20231004203143/https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&#34; target=&#34;_blank&#34;&gt;http://web.archive.org/web/20231004203143/https://blog.sflow.com/2023/07/deploy-real-time-network-dashboards.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>400G QSFP-DD Pluggable Client Optics - Overview</title>
-      <link>http://nickplunkett.com/posts/400g-client-optics-overview/</link>
+      <link>http://localhost:1313/posts/400g-client-optics-overview/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/400g-client-optics-overview/</guid>
+      <guid>http://localhost:1313/posts/400g-client-optics-overview/</guid>
       <description>&lt;p&gt;The next speed step in pluggable optics is here and pricing is reaching tolerable levels. While they still use significantly more power than QSFP optics, the actual unit cost of the pluggables is reaching sub $500/pc levels, which makes them viable in many more use cases.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been researching these in order to get myself more familiar with what is available out there. These are my notes for what I&amp;rsquo;ve found so far. I&amp;rsquo;ll probably update these a few times as I learn and try more.&lt;/p&gt;&#xA;&lt;h2 id=&#34;400g-fr4&#34;&gt;400G FR4&lt;/h2&gt;&#xA;&lt;p&gt;The 400G FR4 is a cost-effective pluggable optic that uses duplex LC SMF connectors and operates at a center wavelength of 1310nm. It has a maximum reach of 2km.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Duplex LC SMF connectors&lt;/li&gt;&#xA;&lt;li&gt;1310nm wavelength&lt;/li&gt;&#xA;&lt;li&gt;2km maximum reach&lt;/li&gt;&#xA;&lt;li&gt;Cost-effective option - available for around $900 list price&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;use-cases&#34;&gt;Use Cases:&lt;/h3&gt;</description>
     </item>
     <item>
       <title>How To: Shrink WSL Disk Size on Windows 10</title>
-      <link>http://nickplunkett.com/posts/shrink-wsl-disk-size/</link>
+      <link>http://localhost:1313/posts/shrink-wsl-disk-size/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/shrink-wsl-disk-size/</guid>
+      <guid>http://localhost:1313/posts/shrink-wsl-disk-size/</guid>
       <description>&lt;p&gt;I recently downloaded and processed some large files on Windows Subsystem for Linux (WSL) on Windows 10. Once I was done with the files, I deleted them from my Ubuntu installation, but the VHD file was still taking up the same amount of space as it was before I deleted the files.&lt;/p&gt;&#xA;&lt;p&gt;It turns out that Windows and WSL does not automatically shrink the VHD file if you delete files - it just automatically expands it as you use more space in WSL.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-shrink-the-vhd-file&#34;&gt;How to shrink the VHD file&lt;/h2&gt;&#xA;&lt;p&gt;Locate the VHD file in your user directory of Windows. For me, this was: &amp;ldquo;C:\Users\Nick Plunkett\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\LocalState\ext4.vhdx&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;In order to reclaim the disk space that is no longer in use in WSL, open a powershell window and run the following commands:&lt;/p&gt;</description>
     </item>
     <item>
       <title>MPO Cables - What are they and how do we use them?</title>
-      <link>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</link>
+      <link>http://localhost:1313/posts/mpo-cables-what-are-they-when-to-use-them/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</guid>
+      <guid>http://localhost:1313/posts/mpo-cables-what-are-they-when-to-use-them/</guid>
       <description>&lt;p&gt;I was recently chatting with a coworker talking through how we use MPO cables and various optics. It made me realize that I have a lot of “in my head” knowledge about fiber cables and optics from working in the networking space over the past 5 years or so, but I haven’t found a good reference point online to point people to and it would probably be better for that information to live written down somewhere rather than it just being in my head. So here it is - everything that is floating around in my head about MPO cables. I’ve done my best to double check what I’m writing here but it should be mostly accurate.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-mpo&#34;&gt;What is MPO?&lt;/h2&gt;&#xA;&lt;p&gt;MPO (Multi-Fiber Push On) in common terms refers to both the connector and the cable itself. It is a cable that contains (currently, 2023) either 8, 12, or 24 fibers terminated onto a single connector, male or female, on both sides of the cable. The cables are available in Single Mode (OS3) and Multimode (OM3, OM4, OM5) formats.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-is-mpo-used&#34;&gt;Where is MPO used?&lt;/h2&gt;&#xA;&lt;p&gt;For typical use cases, MPO cables are used in the following applications:&lt;/p&gt;</description>
     </item>
     <item>
       <title>How To: Activate Arista EOS eAPI over HTTPS with a Self Signed Certificate for NAPALM &amp; Peering Manager</title>
-      <link>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</link>
+      <link>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</guid>
+      <guid>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</guid>
       <description>&lt;p&gt;I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp;amp; management. We run Arista switches running as routers across our entire footprint.&lt;/p&gt;&#xA;&lt;p&gt;Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.&lt;/p&gt;&#xA;&lt;p&gt;I hadn&amp;rsquo;t dealt with this before and this wasn&amp;rsquo;t straightforward. I wasn&amp;rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Generate a self signed key:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router# security pki key generate rsa 2048 self-signed.key&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Generate a self signed certificate using that self signed key:&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>How To: Install Salt Minion on an Arista Switch that uses a Management VRF</title>
-      <link>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</link>
+      <link>http://localhost:1313/posts/install-salt-minion-with-management-vrf-on-arista/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</guid>
+      <guid>http://localhost:1313/posts/install-salt-minion-with-management-vrf-on-arista/</guid>
       <description>&lt;p&gt;Recently, as a part of network automation at $dayjob, I have been provisioning Salt across our network footprint. One particular problem I&amp;rsquo;ve run into is that we use a dedicated management VRF on all of our devices.&lt;/p&gt;&#xA;&lt;p&gt;This was an issue because by default, commands ran on bash on the Arista software run in the default VRF, and in that state we can’t communicate with our management IP networks. There just isn’t a route to the management networks on the default routing table.&lt;/p&gt;&#xA;&lt;p&gt;Our Salt server only has a Management VRF IP address, and we did not want to configure a proxy to make the Salt master reachable outside the Management VRF.&lt;/p&gt;&#xA;&lt;p&gt;I had previously had no experience with management VRFs on Linux, and there were no articles that were particularly helpful in helping me to run commands specifically in the management VRF of an Arista switch, within the context of the Bash/Linux shell.&lt;/p&gt;&#xA;&lt;p&gt;If you find yourself in this same situation, you’ll want to do the following, assuming you were able to get Salt Minion installed on the switch already.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A brief note on Mikrotik HeX router PoE support</title>
-      <link>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</link>
+      <link>http://localhost:1313/posts/mikrotik-passive-vs-active-poe-note/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</guid>
+      <guid>http://localhost:1313/posts/mikrotik-passive-vs-active-poe-note/</guid>
       <description>&lt;p&gt;I recently have been working on a home network buildout in my new home. One of the features I was excited to implement was PoE - power over ethernet. My main use case for PoE in my home network was going to be to power small desktop switches and routers near the wall mounted ethernet ports, in order to eliminate unnecessary wall wart style AC to DC power adapters.&lt;/p&gt;&#xA;&lt;p&gt;I purchased a NETGEAR 16-Port Gigabit Ethernet Unmanaged PoE Switch (GS116PP), one of the highest power budget consumer level fanless switches I was able to find on the current market. It has 16 1Gb ports with a total PoE budget of 183W - more than enough for my needs for now and into the future when it will eventually need to be replaced with a 2.5Gb version. It also supports up to PoE+ and can supply up to 30 watts of power on each PoE port - perfect for my intended use case.&lt;/p&gt;&#xA;&lt;p&gt;I had gotten a little ahead of myself though, because the only gear I have to power on the other end of the PoE connection is a Mikrotik HeX router. One of the key features of this router is that it can be powered entirely by PoE on the first port - no wall adapter required.&lt;/p&gt;&#xA;&lt;p&gt;One thing that the documentation of the HeX router leaves vague is that it requires passive PoE - the device itself is not capable of negotiating PoE with any other device. However, the Netgear switch doesn’t supply passive PoE - an old and outdated standard at this point.&lt;/p&gt;&#xA;&lt;p&gt;The HeX router requires adaptation to passive PoE, which only took a cheap $30 adapter from Ubiquiti - once that was in place, the device was able to sense the passive power and came online and I could ditch the wall wart!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Highlight IP addresses with a double click in Windows Terminal and Firefox on Windows 10</title>
-      <link>http://nickplunkett.com/posts/double-click-ip-address-windows/</link>
+      <link>http://localhost:1313/posts/double-click-ip-address-windows/</link>
       <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/double-click-ip-address-windows/</guid>
+      <guid>http://localhost:1313/posts/double-click-ip-address-windows/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&amp;rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.&lt;/p&gt;&#xA;&lt;p&gt;However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.&lt;/p&gt;&#xA;&lt;p&gt;In the Windows terminal settings, you can manually set your delimiters - this is where the magic happens.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Presentation at NANOG 74: Lean Disaggregated Regional Optical Transport</title>
-      <link>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</link>
+      <link>http://localhost:1313/posts/low-cost-regional-dwdm-nanog-74/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</guid>
+      <guid>http://localhost:1313/posts/low-cost-regional-dwdm-nanog-74/</guid>
       <description>&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/7AAoWErOtEY&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;In October of 2018, I gave a brief Lightning Talk presentation at NANOG 74. It covered how I and my colleagues at CENIC identified and deployed a crafty low cost metro DWDM solution across CENIC&amp;rsquo;s network backbone. The video recording of this talk is available in the Youtube URL above.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://nickplunkett.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://nickplunkett.com/about/</guid>
-      <description>&amp;ldquo;All things are lawful unto me, but all things are not expedient: all things are lawful for me, but I will not be brought under the power of any.&amp;quot;&#xA;1 Cor 6:12&#xA;&amp;ldquo;I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service. And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.&amp;quot;&#xA;Romans 12:1-2&#xA;&amp;ldquo;Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God; who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began, but is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished death, and hath brought life and immortality to light through the gospel&amp;rdquo;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&amp;ldquo;All things are lawful unto me, but all things are not expedient: all things are lawful for me, but I will not be brought under the power of any.&amp;quot;&lt;br /&gt;1 Cor 6:12&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service. And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.&amp;quot;&lt;br /&gt;Romans 12:1-2&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God; who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began, but is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished death, and hath brought life and immortality to light through the gospel&amp;rdquo;&lt;br /&gt;2 Timothy 1&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy Polciy</title>
-      <link>http://nickplunkett.com/privacy/</link>
+      <link>http://localhost:1313/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://nickplunkett.com/privacy/</guid>
-      <description>I do not personally collect any information on any visitor to my website. I do not run analytics or install any tracking cookies onto your device. However, I cannot control what anyone between you and my website does with your traffic.&#xA;This site is hosted on the Digital Ocean App Platform and is cached/proxied by Cloudflare. I do not control whether or not they perform any tracking or handle any user data (such as your IP address).&#xA;Due to privacy concerns, I try to limit hyperlinks to external websites. However, when I do link to them, they are in control of your user data, not me.</description>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;p&gt;I do not personally collect any information on any visitor to my website. I do not run analytics or install any tracking cookies onto your device. However, I cannot control what anyone between you and my website does with your traffic.&lt;/p&gt;&#xA;&lt;p&gt;This site is hosted on the Digital Ocean App Platform and is cached/proxied by Cloudflare. I do not control whether or not they perform any tracking or handle any user data (such as your IP address).&lt;/p&gt;&#xA;&lt;p&gt;Due to privacy concerns, I try to limit hyperlinks to external websites. However, when I do link to them, they are in control of your user data, not me.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

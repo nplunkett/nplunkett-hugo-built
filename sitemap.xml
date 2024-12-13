@@ -2,157 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://nickplunkett.com/</loc>
+    <loc>http://localhost:1313/tags/network-engineering/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nokia/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/nokia-sros-model-driven-mgmt-interface-config/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sr-os/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/proton/</loc>
     <lastmod>2024-04-04T18:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/</loc>
+    <loc>http://localhost:1313/posts/protons-account-downgrade-process-scam/</loc>
     <lastmod>2024-04-04T18:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/proton/</loc>
+    <loc>http://localhost:1313/tags/rant/</loc>
     <lastmod>2024-04-04T18:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/protons-account-downgrade-process-scam/</loc>
+    <loc>http://localhost:1313/tags/review/</loc>
     <lastmod>2024-04-04T18:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/rant/</loc>
+    <loc>http://localhost:1313/tags/scam/</loc>
     <lastmod>2024-04-04T18:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/review/</loc>
-    <lastmod>2024-04-04T18:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/scam/</loc>
-    <lastmod>2024-04-04T18:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/</loc>
-    <lastmod>2024-04-04T18:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/data-analysis/</loc>
+    <loc>http://localhost:1313/tags/data-analysis/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</loc>
+    <loc>http://localhost:1313/posts/easy-sflow-ingest-and-view-with-sflow-rt/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/grafana/</loc>
+    <loc>http://localhost:1313/tags/grafana/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/netflow/</loc>
+    <loc>http://localhost:1313/tags/netflow/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/network-engineering/</loc>
+    <loc>http://localhost:1313/tags/sflow/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/sflow/</loc>
-    <lastmod>2024-01-10T13:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/400g/</loc>
+    <loc>http://localhost:1313/tags/400g/</loc>
     <lastmod>2023-11-16T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/400g-client-optics-overview/</loc>
+    <loc>http://localhost:1313/posts/400g-client-optics-overview/</loc>
     <lastmod>2023-11-16T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/network-architecture/</loc>
+    <loc>http://localhost:1313/tags/network-architecture/</loc>
     <lastmod>2023-11-16T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/optics/</loc>
+    <loc>http://localhost:1313/tags/optics/</loc>
     <lastmod>2023-11-16T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/pluggables/</loc>
+    <loc>http://localhost:1313/tags/pluggables/</loc>
     <lastmod>2023-11-16T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/shrink-wsl-disk-size/</loc>
+    <loc>http://localhost:1313/posts/shrink-wsl-disk-size/</loc>
     <lastmod>2023-09-25T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/ubuntu/</loc>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2023-09-25T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/windows/</loc>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2023-09-25T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/windows-10/</loc>
+    <loc>http://localhost:1313/tags/windows-10/</loc>
     <lastmod>2023-09-25T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/wsl/</loc>
+    <loc>http://localhost:1313/tags/wsl/</loc>
     <lastmod>2023-09-25T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/cabling/</loc>
+    <loc>http://localhost:1313/tags/cabling/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/data-center/</loc>
+    <loc>http://localhost:1313/tags/data-center/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/fiber/</loc>
+    <loc>http://localhost:1313/tags/fiber/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/mpo-cables-what-are-they-when-to-use-them/</loc>
+    <loc>http://localhost:1313/posts/mpo-cables-what-are-they-when-to-use-them/</loc>
     <lastmod>2023-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/arista/</loc>
+    <loc>http://localhost:1313/tags/arista/</loc>
     <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/automation/</loc>
+    <loc>http://localhost:1313/tags/automation/</loc>
     <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/eos/</loc>
+    <loc>http://localhost:1313/tags/eos/</loc>
     <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</loc>
+    <loc>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</loc>
     <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/peering-manager/</loc>
+    <loc>http://localhost:1313/tags/peering-manager/</loc>
     <lastmod>2023-03-30T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/install-salt-minion-with-management-vrf-on-arista/</loc>
+    <loc>http://localhost:1313/posts/install-salt-minion-with-management-vrf-on-arista/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/napalm/</loc>
+    <loc>http://localhost:1313/tags/napalm/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/network-management/</loc>
+    <loc>http://localhost:1313/tags/network-management/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/salt/</loc>
+    <loc>http://localhost:1313/tags/salt/</loc>
     <lastmod>2023-02-24T14:30:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/mikrotik-passive-vs-active-poe-note/</loc>
+    <loc>http://localhost:1313/posts/mikrotik-passive-vs-active-poe-note/</loc>
     <lastmod>2023-02-15T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/mikrotik/</loc>
+    <loc>http://localhost:1313/tags/mikrotik/</loc>
     <lastmod>2023-02-15T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/poe/</loc>
+    <loc>http://localhost:1313/tags/poe/</loc>
     <lastmod>2023-02-15T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/routing/</loc>
+    <loc>http://localhost:1313/tags/routing/</loc>
     <lastmod>2023-02-15T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/switching/</loc>
+    <loc>http://localhost:1313/tags/switching/</loc>
     <lastmod>2023-02-15T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/engineering/</loc>
+    <loc>http://localhost:1313/tags/engineering/</loc>
     <lastmod>2022-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/double-click-ip-address-windows/</loc>
+    <loc>http://localhost:1313/posts/double-click-ip-address-windows/</loc>
     <lastmod>2022-06-20T13:00:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/dwdm/</loc>
+    <loc>http://localhost:1313/tags/dwdm/</loc>
     <lastmod>2018-10-23T13:38:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/network-design/</loc>
+    <loc>http://localhost:1313/tags/network-design/</loc>
     <lastmod>2018-10-23T13:38:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/optical-networking/</loc>
+    <loc>http://localhost:1313/tags/optical-networking/</loc>
     <lastmod>2018-10-23T13:38:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/posts/low-cost-regional-dwdm-nanog-74/</loc>
+    <loc>http://localhost:1313/posts/low-cost-regional-dwdm-nanog-74/</loc>
     <lastmod>2018-10-23T13:38:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/regional-transport/</loc>
+    <loc>http://localhost:1313/tags/regional-transport/</loc>
     <lastmod>2018-10-23T13:38:07-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://nickplunkett.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://nickplunkett.com/privacy/</loc>
+    <loc>http://localhost:1313/privacy/</loc>
   </url>
 </urlset>
