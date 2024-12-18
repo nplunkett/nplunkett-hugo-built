@@ -2,276 +2,248 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nick Plunkett</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://nickplunkett.com/tags/</link>
     <description>Recent content in Tags on Nick Plunkett</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Dec 2024 13:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nickplunkett.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network-Engineering</title>
-      <link>http://localhost:1313/tags/network-engineering/</link>
+      <link>http://nickplunkett.com/tags/network-engineering/</link>
       <pubDate>Thu, 12 Dec 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/network-engineering/</guid>
+      <guid>http://nickplunkett.com/tags/network-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Nokia</title>
-      <link>http://localhost:1313/tags/nokia/</link>
+      <link>http://nickplunkett.com/tags/nokia/</link>
       <pubDate>Thu, 12 Dec 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/nokia/</guid>
+      <guid>http://nickplunkett.com/tags/nokia/</guid>
       <description></description>
     </item>
     <item>
       <title>SR-OS</title>
-      <link>http://localhost:1313/tags/sr-os/</link>
+      <link>http://nickplunkett.com/tags/sr-os/</link>
       <pubDate>Thu, 12 Dec 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/sr-os/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Proton</title>
-      <link>http://localhost:1313/tags/proton/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/proton/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rant</title>
-      <link>http://localhost:1313/tags/rant/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/rant/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Review</title>
-      <link>http://localhost:1313/tags/review/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scam</title>
-      <link>http://localhost:1313/tags/scam/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/scam/</guid>
+      <guid>http://nickplunkett.com/tags/sr-os/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analysis</title>
-      <link>http://localhost:1313/tags/data-analysis/</link>
+      <link>http://nickplunkett.com/tags/data-analysis/</link>
       <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/data-analysis/</guid>
+      <guid>http://nickplunkett.com/tags/data-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Grafana</title>
-      <link>http://localhost:1313/tags/grafana/</link>
+      <link>http://nickplunkett.com/tags/grafana/</link>
       <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/grafana/</guid>
+      <guid>http://nickplunkett.com/tags/grafana/</guid>
       <description></description>
     </item>
     <item>
       <title>Netflow</title>
-      <link>http://localhost:1313/tags/netflow/</link>
+      <link>http://nickplunkett.com/tags/netflow/</link>
       <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/netflow/</guid>
+      <guid>http://nickplunkett.com/tags/netflow/</guid>
       <description></description>
     </item>
     <item>
       <title>Sflow</title>
-      <link>http://localhost:1313/tags/sflow/</link>
+      <link>http://nickplunkett.com/tags/sflow/</link>
       <pubDate>Wed, 10 Jan 2024 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/sflow/</guid>
+      <guid>http://nickplunkett.com/tags/sflow/</guid>
       <description></description>
     </item>
     <item>
       <title>400G</title>
-      <link>http://localhost:1313/tags/400g/</link>
+      <link>http://nickplunkett.com/tags/400g/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/400g/</guid>
+      <guid>http://nickplunkett.com/tags/400g/</guid>
       <description></description>
     </item>
     <item>
       <title>Network Architecture</title>
-      <link>http://localhost:1313/tags/network-architecture/</link>
+      <link>http://nickplunkett.com/tags/network-architecture/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/network-architecture/</guid>
+      <guid>http://nickplunkett.com/tags/network-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Optics</title>
-      <link>http://localhost:1313/tags/optics/</link>
+      <link>http://nickplunkett.com/tags/optics/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/optics/</guid>
+      <guid>http://nickplunkett.com/tags/optics/</guid>
       <description></description>
     </item>
     <item>
       <title>Pluggables</title>
-      <link>http://localhost:1313/tags/pluggables/</link>
+      <link>http://nickplunkett.com/tags/pluggables/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/pluggables/</guid>
+      <guid>http://nickplunkett.com/tags/pluggables/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
-      <link>http://localhost:1313/tags/ubuntu/</link>
+      <link>http://nickplunkett.com/tags/ubuntu/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <guid>http://nickplunkett.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/tags/windows/</link>
+      <link>http://nickplunkett.com/tags/windows/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/windows/</guid>
+      <guid>http://nickplunkett.com/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows 10</title>
-      <link>http://localhost:1313/tags/windows-10/</link>
+      <link>http://nickplunkett.com/tags/windows-10/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/windows-10/</guid>
+      <guid>http://nickplunkett.com/tags/windows-10/</guid>
       <description></description>
     </item>
     <item>
       <title>Wsl</title>
-      <link>http://localhost:1313/tags/wsl/</link>
+      <link>http://nickplunkett.com/tags/wsl/</link>
       <pubDate>Mon, 25 Sep 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/wsl/</guid>
+      <guid>http://nickplunkett.com/tags/wsl/</guid>
       <description></description>
     </item>
     <item>
       <title>Cabling</title>
-      <link>http://localhost:1313/tags/cabling/</link>
+      <link>http://nickplunkett.com/tags/cabling/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/cabling/</guid>
+      <guid>http://nickplunkett.com/tags/cabling/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Center</title>
-      <link>http://localhost:1313/tags/data-center/</link>
+      <link>http://nickplunkett.com/tags/data-center/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/data-center/</guid>
+      <guid>http://nickplunkett.com/tags/data-center/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiber</title>
-      <link>http://localhost:1313/tags/fiber/</link>
+      <link>http://nickplunkett.com/tags/fiber/</link>
       <pubDate>Tue, 20 Jun 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/fiber/</guid>
+      <guid>http://nickplunkett.com/tags/fiber/</guid>
       <description></description>
     </item>
     <item>
       <title>Arista</title>
-      <link>http://localhost:1313/tags/arista/</link>
+      <link>http://nickplunkett.com/tags/arista/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/arista/</guid>
+      <guid>http://nickplunkett.com/tags/arista/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
+      <link>http://nickplunkett.com/tags/automation/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <guid>http://nickplunkett.com/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Eos</title>
-      <link>http://localhost:1313/tags/eos/</link>
+      <link>http://nickplunkett.com/tags/eos/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/eos/</guid>
+      <guid>http://nickplunkett.com/tags/eos/</guid>
       <description></description>
     </item>
     <item>
       <title>Peering-Manager</title>
-      <link>http://localhost:1313/tags/peering-manager/</link>
+      <link>http://nickplunkett.com/tags/peering-manager/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/peering-manager/</guid>
+      <guid>http://nickplunkett.com/tags/peering-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Napalm</title>
-      <link>http://localhost:1313/tags/napalm/</link>
+      <link>http://nickplunkett.com/tags/napalm/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/napalm/</guid>
+      <guid>http://nickplunkett.com/tags/napalm/</guid>
       <description></description>
     </item>
     <item>
       <title>Network-Management</title>
-      <link>http://localhost:1313/tags/network-management/</link>
+      <link>http://nickplunkett.com/tags/network-management/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/network-management/</guid>
+      <guid>http://nickplunkett.com/tags/network-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Salt</title>
-      <link>http://localhost:1313/tags/salt/</link>
+      <link>http://nickplunkett.com/tags/salt/</link>
       <pubDate>Fri, 24 Feb 2023 14:30:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/salt/</guid>
+      <guid>http://nickplunkett.com/tags/salt/</guid>
       <description></description>
     </item>
     <item>
       <title>Mikrotik</title>
-      <link>http://localhost:1313/tags/mikrotik/</link>
+      <link>http://nickplunkett.com/tags/mikrotik/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/mikrotik/</guid>
+      <guid>http://nickplunkett.com/tags/mikrotik/</guid>
       <description></description>
     </item>
     <item>
       <title>Poe</title>
-      <link>http://localhost:1313/tags/poe/</link>
+      <link>http://nickplunkett.com/tags/poe/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/poe/</guid>
+      <guid>http://nickplunkett.com/tags/poe/</guid>
       <description></description>
     </item>
     <item>
       <title>Routing</title>
-      <link>http://localhost:1313/tags/routing/</link>
+      <link>http://nickplunkett.com/tags/routing/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/routing/</guid>
+      <guid>http://nickplunkett.com/tags/routing/</guid>
       <description></description>
     </item>
     <item>
       <title>Switching</title>
-      <link>http://localhost:1313/tags/switching/</link>
+      <link>http://nickplunkett.com/tags/switching/</link>
       <pubDate>Wed, 15 Feb 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/switching/</guid>
+      <guid>http://nickplunkett.com/tags/switching/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>http://localhost:1313/tags/engineering/</link>
+      <link>http://nickplunkett.com/tags/engineering/</link>
       <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/engineering/</guid>
+      <guid>http://nickplunkett.com/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Dwdm</title>
-      <link>http://localhost:1313/tags/dwdm/</link>
+      <link>http://nickplunkett.com/tags/dwdm/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/dwdm/</guid>
+      <guid>http://nickplunkett.com/tags/dwdm/</guid>
       <description></description>
     </item>
     <item>
       <title>Network Design</title>
-      <link>http://localhost:1313/tags/network-design/</link>
+      <link>http://nickplunkett.com/tags/network-design/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/network-design/</guid>
+      <guid>http://nickplunkett.com/tags/network-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Optical Networking</title>
-      <link>http://localhost:1313/tags/optical-networking/</link>
+      <link>http://nickplunkett.com/tags/optical-networking/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/optical-networking/</guid>
+      <guid>http://nickplunkett.com/tags/optical-networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Regional Transport</title>
-      <link>http://localhost:1313/tags/regional-transport/</link>
+      <link>http://nickplunkett.com/tags/regional-transport/</link>
       <pubDate>Tue, 23 Oct 2018 13:38:07 -0700</pubDate>
-      <guid>http://localhost:1313/tags/regional-transport/</guid>
+      <guid>http://nickplunkett.com/tags/regional-transport/</guid>
       <description></description>
     </item>
   </channel>

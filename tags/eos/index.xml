@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eos on Nick Plunkett</title>
-    <link>http://localhost:1313/tags/eos/</link>
+    <link>http://nickplunkett.com/tags/eos/</link>
     <description>Recent content in Eos on Nick Plunkett</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Mar 2023 13:00:07 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/eos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nickplunkett.com/tags/eos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To: Activate Arista EOS eAPI over HTTPS with a Self Signed Certificate for NAPALM &amp; Peering Manager</title>
-      <link>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</link>
+      <link>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</link>
       <pubDate>Thu, 30 Mar 2023 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/posts/arista-eos-eapi-https-self-signed-cert/</guid>
+      <guid>http://nickplunkett.com/posts/arista-eos-eapi-https-self-signed-cert/</guid>
       <description>&lt;p&gt;I have recently been integrating Peering Manager into my network deployment at my day job in order to help automate our BGP configuration &amp;amp; management. We run Arista switches running as routers across our entire footprint.&lt;/p&gt;&#xA;&lt;p&gt;Peering Manager has NAPALM integration built into it, both for managing and deploying configuration as well as polling device status. However, for Arista devices, this requires the Arista eAPI to be enabled on the router, and it must be running in HTTPS mode. That means you need some sort of security certificate installed.&lt;/p&gt;&#xA;&lt;p&gt;I hadn&amp;rsquo;t dealt with this before and this wasn&amp;rsquo;t straightforward. I wasn&amp;rsquo;t able to find great documentation online for how to do this. Below is my process for generating a self signed key, then using that key to generate a self-signed certificate, then using that certificate to allow HTTPS connections to the router over the management interface for eAPI command and control.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Generate a self signed key:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;router# security pki key generate rsa 2048 self-signed.key&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Generate a self signed certificate using that self signed key:&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>

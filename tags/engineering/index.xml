@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Engineering on Nick Plunkett</title>
-    <link>http://localhost:1313/tags/engineering/</link>
+    <link>http://nickplunkett.com/tags/engineering/</link>
     <description>Recent content in Engineering on Nick Plunkett</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jun 2022 13:00:07 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nickplunkett.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Highlight IP addresses with a double click in Windows Terminal and Firefox on Windows 10</title>
-      <link>http://localhost:1313/posts/double-click-ip-address-windows/</link>
+      <link>http://nickplunkett.com/posts/double-click-ip-address-windows/</link>
       <pubDate>Mon, 20 Jun 2022 13:00:07 -0700</pubDate>
-      <guid>http://localhost:1313/posts/double-click-ip-address-windows/</guid>
+      <guid>http://nickplunkett.com/posts/double-click-ip-address-windows/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve always loved using my Mac for network engineering tasks - because it has a UNIX-like base it was kind of built from the ground up in a way that is suited to the task. I&amp;rsquo;ve recently tried to use a Windows laptop for network engineering work to not pigeon-hole myself to one specific platform. One of the seemingly small but high friction activities on Windows through the terminal by default is that when you double click an IPv4 address it only highlights the first octet. This seemingly small annoyance builds up over time when working with tons of IPs and usually causes me to shift back to macOS.&lt;/p&gt;&#xA;&lt;p&gt;However, I recently learned about delimiters within the various OSes. From what I understand, macOS handles highlighting/double clicking on a system-wide level, while Windows allows each application to handle highlighting/double clicking independently.&lt;/p&gt;&#xA;&lt;p&gt;In the Windows terminal settings, you can manually set your delimiters - this is where the magic happens.&lt;/p&gt;</description>
     </item>
   </channel>

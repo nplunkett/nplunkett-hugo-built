@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>400G on Nick Plunkett</title>
-    <link>http://localhost:1313/tags/400g/</link>
+    <link>http://nickplunkett.com/tags/400g/</link>
     <description>Recent content in 400G on Nick Plunkett</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Nov 2023 13:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/400g/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nickplunkett.com/tags/400g/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>400G QSFP-DD Pluggable Client Optics - Overview</title>
-      <link>http://localhost:1313/posts/400g-client-optics-overview/</link>
+      <link>http://nickplunkett.com/posts/400g-client-optics-overview/</link>
       <pubDate>Thu, 16 Nov 2023 13:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/400g-client-optics-overview/</guid>
+      <guid>http://nickplunkett.com/posts/400g-client-optics-overview/</guid>
       <description>&lt;p&gt;The next speed step in pluggable optics is here and pricing is reaching tolerable levels. While they still use significantly more power than QSFP optics, the actual unit cost of the pluggables is reaching sub $500/pc levels, which makes them viable in many more use cases.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been researching these in order to get myself more familiar with what is available out there. These are my notes for what I&amp;rsquo;ve found so far. I&amp;rsquo;ll probably update these a few times as I learn and try more.&lt;/p&gt;&#xA;&lt;h2 id=&#34;400g-fr4&#34;&gt;400G FR4&lt;/h2&gt;&#xA;&lt;p&gt;The 400G FR4 is a cost-effective pluggable optic that uses duplex LC SMF connectors and operates at a center wavelength of 1310nm. It has a maximum reach of 2km.&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Duplex LC SMF connectors&lt;/li&gt;&#xA;&lt;li&gt;1310nm wavelength&lt;/li&gt;&#xA;&lt;li&gt;2km maximum reach&lt;/li&gt;&#xA;&lt;li&gt;Cost-effective option - available for around $900 list price&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;use-cases&#34;&gt;Use Cases:&lt;/h3&gt;</description>
     </item>
   </channel>
