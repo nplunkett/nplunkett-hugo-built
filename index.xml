@@ -6,15 +6,8 @@
     <description>Recent content on Nick Plunkett</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2024 13:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 13:00:00 -0700</lastBuildDate>
     <atom:link href="http://nickplunkett.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Nokia SR OS Management Port Configuration with Default Route</title>
-      <link>http://nickplunkett.com/posts/nokia-sros-model-driven-mgmt-interface-config/</link>
-      <pubDate>Thu, 12 Dec 2024 13:00:00 -0700</pubDate>
-      <guid>http://nickplunkett.com/posts/nokia-sros-model-driven-mgmt-interface-config/</guid>
-      <description>&lt;p&gt;I am running through some configuration testing of Nokia equipment and need to store some notes on basic configuration. Will update this with more text later.&lt;/p&gt;&#xA;&lt;p&gt;On a 7750 SR-1x-48D running SR-OS 24.10.R1 using model driven CLI issue the following commands to configure a static address on the management ethernet port:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bof exclusive&#xA;router &amp;#34;management&amp;#34;&#xA;interface &amp;#34;management&amp;#34;&#xA;cpm active&#xA;ipv4 &amp;lt;Address&amp;gt; prefix-length &amp;lt;#&amp;gt;&#xA;exit&#xA;exit&#xA;exit&#xA;static routes&#xA;route 0.0.0.0/0 next-hop &amp;lt;Gateway&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can then view the configured IP address with:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;A:admin@&amp;lt;hostname&amp;gt;# show router interface A/1&#xA;&#xA;  &#xA;&#xA;===============================================================================&#xA;&#xA;Interface Table (Router: Base)&#xA;&#xA;===============================================================================&#xA;&#xA;Interface-Name                   Adm       Opr(v4/v6)  Mode    Port/SapId&#xA;&#xA;   IP-Address                                                  PfxState&#xA;&#xA;-------------------------------------------------------------------------------&#xA;&#xA;A/1                              Up        Down/Down   Network n/a&#xA;&#xA;   &amp;lt;Address&amp;gt;/&amp;lt;Mask&amp;gt;                                           n/a&#xA;&#xA;-------------------------------------------------------------------------------&#xA;&#xA;Interfaces : 1&#xA;&#xA;===============================================================================&#xA;&#xA;  &#xA;&#xA;[/]&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
     <item>
       <title>Easily create an sFlow collector and dashboard with sFlow-RT</title>
       <link>http://nickplunkett.com/posts/easy-sflow-ingest-and-view-with-sflow-rt/</link>

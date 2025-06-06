@@ -8,21 +8,6 @@
     <loc>http://nickplunkett.com/posts/</loc>
     <lastmod>2025-01-01T13:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://nickplunkett.com/tags/network-engineering/</loc>
-    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/nokia/</loc>
-    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/posts/nokia-sros-model-driven-mgmt-interface-config/</loc>
-    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/sr-os/</loc>
-    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://nickplunkett.com/tags/</loc>
-    <lastmod>2024-12-12T13:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://nickplunkett.com/tags/data-analysis/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
@@ -35,7 +20,13 @@
     <loc>http://nickplunkett.com/tags/netflow/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://nickplunkett.com/tags/network-engineering/</loc>
+    <lastmod>2024-01-10T13:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://nickplunkett.com/tags/sflow/</loc>
+    <lastmod>2024-01-10T13:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://nickplunkett.com/tags/</loc>
     <lastmod>2024-01-10T13:00:00-07:00</lastmod>
   </url><url>
     <loc>http://nickplunkett.com/tags/400g/</loc>
